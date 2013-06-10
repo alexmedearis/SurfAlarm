@@ -11,6 +11,7 @@
 #import "TimePickerViewController.h"
 #import "CountyPickerViewController.h"
 #import "UIColor+FlatUI.h"
+#import "UINavigationBar+FlatUI.h"
 
 @interface MainScreenViewController (PrivateMethods)
 
@@ -55,6 +56,8 @@
     [waveHeightSlider configureFlatSliderWithTrackColor:[UIColor silverColor]
                                   progressColor:[UIColor alizarinColor]
                                      thumbColor:[UIColor pomegranateColor]];
+    
+    [self.navigationController.navigationBar configureFlatNavigationBarWithColor:[UIColor midnightBlueColor]];
     
     [self loadUser];
 }
