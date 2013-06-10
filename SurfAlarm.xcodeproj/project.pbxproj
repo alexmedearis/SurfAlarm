@@ -17,6 +17,8 @@
 		00B167EB16B0E492005ED9CC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167EA16B0E492005ED9CC /* Security.framework */; };
 		00B167ED16B0E497005ED9CC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167EC16B0E497005ED9CC /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		00B167EF16B0E49B005ED9CC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167EE16B0E49B005ED9CC /* StoreKit.framework */; };
+		00BC8E04176631B100BD81CF /* FUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC8E03176631B100BD81CF /* FUIButton.m */; };
+		00BC8E07176631C000BD81CF /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC8E06176631C000BD81CF /* UIImage+FlatUI.m */; };
 		00D6949B16B77B5400D161B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D6949A16B77B5400D161B5 /* Default-568h@2x.png */; };
 		00D694A716B77CB700D161B5 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D694A116B77CB700D161B5 /* Icon-Small@2x.png */; };
 		00D694A816B77CB700D161B5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D694A216B77CB700D161B5 /* Icon.png */; };
@@ -70,6 +72,10 @@
 		00B167EA16B0E492005ED9CC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		00B167EC16B0E497005ED9CC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		00B167EE16B0E49B005ED9CC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		00BC8E02176631B100BD81CF /* FUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIButton.h; sourceTree = "<group>"; };
+		00BC8E03176631B100BD81CF /* FUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIButton.m; sourceTree = "<group>"; };
+		00BC8E05176631C000BD81CF /* UIImage+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FlatUI.h"; sourceTree = "<group>"; };
+		00BC8E06176631C000BD81CF /* UIImage+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FlatUI.m"; sourceTree = "<group>"; };
 		00D6949A16B77B5400D161B5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
 		00D694A116B77CB700D161B5 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
 		00D694A216B77CB700D161B5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
@@ -210,6 +216,10 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				00BC8E05176631C000BD81CF /* UIImage+FlatUI.h */,
+				00BC8E06176631C000BD81CF /* UIImage+FlatUI.m */,
+				00BC8E02176631B100BD81CF /* FUIButton.h */,
+				00BC8E03176631B100BD81CF /* FUIButton.m */,
 				32252D38126B6B6A00BEC5A1 /* MBProgressHUD.h */,
 				32252D39126B6B6A00BEC5A1 /* MBProgressHUD.m */,
 				32CA4F630368D1EE00C91783 /* SurfAlarm_Prefix.pch */,
@@ -356,6 +366,8 @@
 				32252C421266B62900BEC5A1 /* CountyPickerViewController.m in Sources */,
 				32252D3A126B6B6A00BEC5A1 /* MBProgressHUD.m in Sources */,
 				323E6BD8127099860072C1C7 /* WebViewController.m in Sources */,
+				00BC8E04176631B100BD81CF /* FUIButton.m in Sources */,
+				00BC8E07176631C000BD81CF /* UIImage+FlatUI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
