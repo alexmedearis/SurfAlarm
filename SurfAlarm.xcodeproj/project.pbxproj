@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B167DD16B0E3FB005ED9CC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167DC16B0E3FB005ED9CC /* Parse.framework */; };
+		00B167DF16B0E458005ED9CC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167DE16B0E458005ED9CC /* AudioToolbox.framework */; };
+		00B167E116B0E45F005ED9CC /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167E016B0E45F005ED9CC /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		00B167E316B0E463005ED9CC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167E216B0E463005ED9CC /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		00B167E516B0E46E005ED9CC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167E416B0E46E005ED9CC /* CoreLocation.framework */; };
+		00B167E716B0E47B005ED9CC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167E616B0E47B005ED9CC /* libsqlite3.dylib */; };
+		00B167E916B0E48D005ED9CC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167E816B0E48D005ED9CC /* QuartzCore.framework */; };
+		00B167EB16B0E492005ED9CC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167EA16B0E492005ED9CC /* Security.framework */; };
+		00B167ED16B0E497005ED9CC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167EC16B0E497005ED9CC /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		00B167EF16B0E49B005ED9CC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167EE16B0E49B005ED9CC /* StoreKit.framework */; };
+		00D6949B16B77B5400D161B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D6949A16B77B5400D161B5 /* Default-568h@2x.png */; };
+		00D694A716B77CB700D161B5 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D694A116B77CB700D161B5 /* Icon-Small@2x.png */; };
+		00D694A816B77CB700D161B5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D694A216B77CB700D161B5 /* Icon.png */; };
+		00D694A916B77CB700D161B5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D694A316B77CB700D161B5 /* Icon@2x.png */; };
+		00D694AA16B77CB700D161B5 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D694A416B77CB700D161B5 /* Icon-72.png */; };
+		00D694AB16B77CB700D161B5 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D694A516B77CB700D161B5 /* Icon-Small-50.png */; };
+		00D694AC16B77CB700D161B5 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D694A616B77CB700D161B5 /* Icon-Small.png */; };
+		1D3623260D0F684500981E51 /* SurfAlarmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SurfAlarmAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		32252C3A1266B27200BEC5A1 /* LocationPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32252C391266B27200BEC5A1 /* LocationPickerViewController.m */; };
+		32252C421266B62900BEC5A1 /* CountyPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32252C411266B62900BEC5A1 /* CountyPickerViewController.m */; };
+		32252CFE1267633D00BEC5A1 /* alarm_clock_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 32252CFD1267633D00BEC5A1 /* alarm_clock_icon.png */; };
+		32252D3A126B6B6A00BEC5A1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 32252D39126B6B6A00BEC5A1 /* MBProgressHUD.m */; };
+		32252DBF126BCD0200BEC5A1 /* Locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32252DBE126BCD0200BEC5A1 /* Locations.plist */; };
+		322E0E2312638A6F0081D1BD /* TimePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 322E0E2212638A6F0081D1BD /* TimePicker.xib */; };
+		3238E67512BFBF6B00373FE7 /* handle_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238E67312BFBF6B00373FE7 /* handle_highlight.png */; };
+		3238E67612BFBF6B00373FE7 /* handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238E67412BFBF6B00373FE7 /* handle.png */; };
+		323D1688128A5FA600995D9E /* surf_alarm.caf in Resources */ = {isa = PBXBuildFile; fileRef = 323D1687128A5FA600995D9E /* surf_alarm.caf */; };
+		323D16AE128A645200995D9E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 323D16AC128A645200995D9E /* Default@2x.png */; };
+		323D16AF128A645200995D9E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 323D16AD128A645200995D9E /* Default.png */; };
+		323D16B4128A664700995D9E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323D16B3128A664700995D9E /* AVFoundation.framework */; };
+		323E2A1612637337009E6253 /* MainScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323E2A1512637337009E6253 /* MainScreen.xib */; };
+		323E2A1E1263736E009E6253 /* MainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323E2A1D1263736E009E6253 /* MainScreenViewController.m */; };
+		323E2A5312637D99009E6253 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 323E2A5012637D99009E6253 /* background@2x.png */; };
+		323E2A5A12637E20009E6253 /* headerlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 323E2A5912637E20009E6253 /* headerlogo.png */; };
+		323E2A5C12637E32009E6253 /* headerlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 323E2A5B12637E32009E6253 /* headerlogo@2x.png */; };
+		323E2A5F12637ED1009E6253 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 323E2A5E12637ED1009E6253 /* background.png */; };
+		323E6BD51270996A0072C1C7 /* WebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323E6BD41270996A0072C1C7 /* WebView.xib */; };
+		323E6BD8127099860072C1C7 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323E6BD7127099860072C1C7 /* WebViewController.m */; };
+		3253114D126384FA00576534 /* Criteria.m in Sources */ = {isa = PBXBuildFile; fileRef = 3253114C126384FA00576534 /* Criteria.m */; };
+		325311511263864600576534 /* disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = 325311501263864600576534 /* disclosure.png */; };
+		3253115A126387AC00576534 /* TimePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32531159126387AC00576534 /* TimePickerViewController.m */; };
+		32621443128D002200C50213 /* splitcast.png in Resources */ = {isa = PBXBuildFile; fileRef = 32621442128D002200C50213 /* splitcast.png */; };
+		3290655F126567190067FD8E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3290655E126567190067FD8E /* CFNetwork.framework */; };
+		32906561126567280067FD8E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32906560126567280067FD8E /* SystemConfiguration.framework */; };
+		32906563126567400067FD8E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32906562126567400067FD8E /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00B167DC16B0E3FB005ED9CC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		00B167DE16B0E458005ED9CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B167E016B0E45F005ED9CC /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		00B167E216B0E463005ED9CC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		00B167E416B0E46E005ED9CC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		00B167E616B0E47B005ED9CC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		00B167E816B0E48D005ED9CC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		00B167EA16B0E492005ED9CC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		00B167EC16B0E497005ED9CC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		00B167EE16B0E49B005ED9CC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		00D6949A16B77B5400D161B5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		00D694A116B77CB700D161B5 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		00D694A216B77CB700D161B5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
+		00D694A316B77CB700D161B5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
+		00D694A416B77CB700D161B5 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
+		00D694A516B77CB700D161B5 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
+		00D694A616B77CB700D161B5 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Icon-Small.png"; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SurfAlarmAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurfAlarmAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SurfAlarmAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurfAlarmAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SurfAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32252C381266B27200BEC5A1 /* LocationPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationPickerViewController.h; sourceTree = "<group>"; };
+		32252C391266B27200BEC5A1 /* LocationPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationPickerViewController.m; sourceTree = "<group>"; };
+		32252C401266B62900BEC5A1 /* CountyPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountyPickerViewController.h; sourceTree = "<group>"; };
+		32252C411266B62900BEC5A1 /* CountyPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountyPickerViewController.m; sourceTree = "<group>"; };
+		32252CFD1267633D00BEC5A1 /* alarm_clock_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alarm_clock_icon.png; path = Resources/alarm_clock_icon.png; sourceTree = "<group>"; };
+		32252D38126B6B6A00BEC5A1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = Classes/MBProgressHUD.h; sourceTree = "<group>"; };
+		32252D39126B6B6A00BEC5A1 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = Classes/MBProgressHUD.m; sourceTree = "<group>"; };
+		32252DBE126BCD0200BEC5A1 /* Locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Locations.plist; sourceTree = "<group>"; };
+		322E0E2212638A6F0081D1BD /* TimePicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TimePicker.xib; path = Resources/TimePicker.xib; sourceTree = "<group>"; };
+		3238E67312BFBF6B00373FE7 /* handle_highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = handle_highlight.png; path = Resources/handle_highlight.png; sourceTree = "<group>"; };
+		3238E67412BFBF6B00373FE7 /* handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = handle.png; path = Resources/handle.png; sourceTree = "<group>"; };
+		323D1687128A5FA600995D9E /* surf_alarm.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = surf_alarm.caf; path = Resources/surf_alarm.caf; sourceTree = "<group>"; };
+		323D16AC128A645200995D9E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
+		323D16AD128A645200995D9E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
+		323D16B3128A664700995D9E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		323E2A1512637337009E6253 /* MainScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainScreen.xib; path = Resources/MainScreen.xib; sourceTree = "<group>"; };
+		323E2A1C1263736E009E6253 /* MainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenViewController.h; sourceTree = "<group>"; };
+		323E2A1D1263736E009E6253 /* MainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenViewController.m; sourceTree = "<group>"; };
+		323E2A5012637D99009E6253 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "Resources/background@2x.png"; sourceTree = "<group>"; };
+		323E2A5912637E20009E6253 /* headerlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = headerlogo.png; path = Resources/headerlogo.png; sourceTree = "<group>"; };
+		323E2A5B12637E32009E6253 /* headerlogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "headerlogo@2x.png"; path = "Resources/headerlogo@2x.png"; sourceTree = "<group>"; };
+		323E2A5E12637ED1009E6253 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Resources/background.png; sourceTree = "<group>"; };
+		323E6BD41270996A0072C1C7 /* WebView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WebView.xib; path = Resources/WebView.xib; sourceTree = "<group>"; };
+		323E6BD6127099860072C1C7 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		323E6BD7127099860072C1C7 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		3253114B126384FA00576534 /* Criteria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Criteria.h; sourceTree = "<group>"; };
+		3253114C126384FA00576534 /* Criteria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Criteria.m; sourceTree = "<group>"; };
+		325311501263864600576534 /* disclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = disclosure.png; path = Resources/disclosure.png; sourceTree = "<group>"; };
+		32531158126387AC00576534 /* TimePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimePickerViewController.h; sourceTree = "<group>"; };
+		32531159126387AC00576534 /* TimePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimePickerViewController.m; sourceTree = "<group>"; };
+		32621442128D002200C50213 /* splitcast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splitcast.png; path = Resources/splitcast.png; sourceTree = "<group>"; };
+		3290655E126567190067FD8E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		32906560126567280067FD8E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		32906562126567400067FD8E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		32906564126567740067FD8E /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		32CA4F630368D1EE00C91783 /* SurfAlarm_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurfAlarm_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SurfAlarm-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SurfAlarm-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B167E316B0E463005ED9CC /* AdSupport.framework in Frameworks */,
+				32906561126567280067FD8E /* SystemConfiguration.framework in Frameworks */,
+				00B167EF16B0E49B005ED9CC /* StoreKit.framework in Frameworks */,
+				00B167ED16B0E497005ED9CC /* Social.framework in Frameworks */,
+				00B167EB16B0E492005ED9CC /* Security.framework in Frameworks */,
+				00B167E916B0E48D005ED9CC /* QuartzCore.framework in Frameworks */,
+				32906563126567400067FD8E /* MobileCoreServices.framework in Frameworks */,
+				00B167E716B0E47B005ED9CC /* libsqlite3.dylib in Frameworks */,
+				00B167E516B0E46E005ED9CC /* CoreLocation.framework in Frameworks */,
+				3290655F126567190067FD8E /* CFNetwork.framework in Frameworks */,
+				00B167E116B0E45F005ED9CC /* Accounts.framework in Frameworks */,
+				00B167DF16B0E458005ED9CC /* AudioToolbox.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				323D16B4128A664700995D9E /* AVFoundation.framework in Frameworks */,
+				00B167DD16B0E3FB005ED9CC /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				32252C401266B62900BEC5A1 /* CountyPickerViewController.h */,
+				32252C411266B62900BEC5A1 /* CountyPickerViewController.m */,
+				1D3623240D0F684500981E51 /* SurfAlarmAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SurfAlarmAppDelegate.m */,
+				323E2A1C1263736E009E6253 /* MainScreenViewController.h */,
+				323E2A1D1263736E009E6253 /* MainScreenViewController.m */,
+				3253114B126384FA00576534 /* Criteria.h */,
+				3253114C126384FA00576534 /* Criteria.m */,
+				32531158126387AC00576534 /* TimePickerViewController.h */,
+				32531159126387AC00576534 /* TimePickerViewController.m */,
+				32252C381266B27200BEC5A1 /* LocationPickerViewController.h */,
+				32252C391266B27200BEC5A1 /* LocationPickerViewController.m */,
+				323E6BD6127099860072C1C7 /* WebViewController.h */,
+				323E6BD7127099860072C1C7 /* WebViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SurfAlarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				00B167EE16B0E49B005ED9CC /* StoreKit.framework */,
+				00B167EC16B0E497005ED9CC /* Social.framework */,
+				00B167EA16B0E492005ED9CC /* Security.framework */,
+				00B167E816B0E48D005ED9CC /* QuartzCore.framework */,
+				00B167E616B0E47B005ED9CC /* libsqlite3.dylib */,
+				00B167E416B0E46E005ED9CC /* CoreLocation.framework */,
+				00B167E216B0E463005ED9CC /* AdSupport.framework */,
+				00B167E016B0E45F005ED9CC /* Accounts.framework */,
+				00B167DE16B0E458005ED9CC /* AudioToolbox.framework */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				3290655E126567190067FD8E /* CFNetwork.framework */,
+				32906560126567280067FD8E /* SystemConfiguration.framework */,
+				32906562126567400067FD8E /* MobileCoreServices.framework */,
+				32906564126567740067FD8E /* libz.1.2.3.dylib */,
+				323D16B3128A664700995D9E /* AVFoundation.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32252D38126B6B6A00BEC5A1 /* MBProgressHUD.h */,
+				32252D39126B6B6A00BEC5A1 /* MBProgressHUD.m */,
+				32CA4F630368D1EE00C91783 /* SurfAlarm_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00D694A116B77CB700D161B5 /* Icon-Small@2x.png */,
+				00D694A216B77CB700D161B5 /* Icon.png */,
+				00D694A316B77CB700D161B5 /* Icon@2x.png */,
+				00D694A416B77CB700D161B5 /* Icon-72.png */,
+				00D694A516B77CB700D161B5 /* Icon-Small-50.png */,
+				00D694A616B77CB700D161B5 /* Icon-Small.png */,
+				3238E67312BFBF6B00373FE7 /* handle_highlight.png */,
+				3238E67412BFBF6B00373FE7 /* handle.png */,
+				32621442128D002200C50213 /* splitcast.png */,
+				00D6949A16B77B5400D161B5 /* Default-568h@2x.png */,
+				323D16AC128A645200995D9E /* Default@2x.png */,
+				323D16AD128A645200995D9E /* Default.png */,
+				323D1687128A5FA600995D9E /* surf_alarm.caf */,
+				32252CFD1267633D00BEC5A1 /* alarm_clock_icon.png */,
+				322E0E2212638A6F0081D1BD /* TimePicker.xib */,
+				325311501263864600576534 /* disclosure.png */,
+				323E2A5E12637ED1009E6253 /* background.png */,
+				323E2A5B12637E32009E6253 /* headerlogo@2x.png */,
+				323E2A5912637E20009E6253 /* headerlogo.png */,
+				323E2A5012637D99009E6253 /* background@2x.png */,
+				323E2A1512637337009E6253 /* MainScreen.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* SurfAlarm-Info.plist */,
+				32252DBE126BCD0200BEC5A1 /* Locations.plist */,
+				323E6BD41270996A0072C1C7 /* WebView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B167DC16B0E3FB005ED9CC /* Parse.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Surf Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Surf Alarm" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Surf Alarm";
+			productName = SurfAlarm;
+			productReference = 1D6058910D05DD3D006BFB54 /* SurfAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SurfAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Surf Alarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				323E2A1612637337009E6253 /* MainScreen.xib in Resources */,
+				323E2A5312637D99009E6253 /* background@2x.png in Resources */,
+				323E2A5A12637E20009E6253 /* headerlogo.png in Resources */,
+				323E2A5C12637E32009E6253 /* headerlogo@2x.png in Resources */,
+				323E2A5F12637ED1009E6253 /* background.png in Resources */,
+				325311511263864600576534 /* disclosure.png in Resources */,
+				322E0E2312638A6F0081D1BD /* TimePicker.xib in Resources */,
+				32252CFE1267633D00BEC5A1 /* alarm_clock_icon.png in Resources */,
+				32252DBF126BCD0200BEC5A1 /* Locations.plist in Resources */,
+				323E6BD51270996A0072C1C7 /* WebView.xib in Resources */,
+				323D1688128A5FA600995D9E /* surf_alarm.caf in Resources */,
+				323D16AE128A645200995D9E /* Default@2x.png in Resources */,
+				323D16AF128A645200995D9E /* Default.png in Resources */,
+				32621443128D002200C50213 /* splitcast.png in Resources */,
+				3238E67512BFBF6B00373FE7 /* handle_highlight.png in Resources */,
+				3238E67612BFBF6B00373FE7 /* handle.png in Resources */,
+				00D6949B16B77B5400D161B5 /* Default-568h@2x.png in Resources */,
+				00D694A716B77CB700D161B5 /* Icon-Small@2x.png in Resources */,
+				00D694A816B77CB700D161B5 /* Icon.png in Resources */,
+				00D694A916B77CB700D161B5 /* Icon@2x.png in Resources */,
+				00D694AA16B77CB700D161B5 /* Icon-72.png in Resources */,
+				00D694AB16B77CB700D161B5 /* Icon-Small-50.png in Resources */,
+				00D694AC16B77CB700D161B5 /* Icon-Small.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SurfAlarmAppDelegate.m in Sources */,
+				323E2A1E1263736E009E6253 /* MainScreenViewController.m in Sources */,
+				3253114D126384FA00576534 /* Criteria.m in Sources */,
+				3253115A126387AC00576534 /* TimePickerViewController.m in Sources */,
+				32252C3A1266B27200BEC5A1 /* LocationPickerViewController.m in Sources */,
+				32252C421266B62900BEC5A1 /* CountyPickerViewController.m in Sources */,
+				32252D3A126B6B6A00BEC5A1 /* MBProgressHUD.m in Sources */,
+				323E6BD8127099860072C1C7 /* WebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SurfAlarm_Prefix.pch;
+				INFOPLIST_FILE = "SurfAlarm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = SurfAlarm;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SurfAlarm_Prefix.pch;
+				INFOPLIST_FILE = "SurfAlarm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = SurfAlarm;
+				PROVISIONING_PROFILE = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Surf Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SurfAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

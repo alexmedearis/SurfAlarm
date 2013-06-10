@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Santa Cruz</key>
+	<dict>
+		<key>Scotts Creek</key>
+		<integer>128</integer>
+		<key>Four Mile</key>
+		<integer>131</integer>
+		<key>Steamer Lane</key>
+		<integer>2</integer>
+		<key>Cowells</key>
+		<integer>3</integer>
+		<key>Pleasure Point</key>
+		<integer>1</integer>
+		<key>38th Ave</key>
+		<integer>4</integer>
+		<key>The Hook</key>
+		<integer>147</integer>
+		<key>Capitola Jetty</key>
+		<integer>149</integer>
+	</dict>
+	<key>San Mateo</key>
+	<dict>
+		<key>Linda Mar</key>
+		<integer>120</integer>
+		<key>Montara</key>
+		<integer>121</integer>
+		<key>Mavericks</key>
+		<integer>122</integer>
+		<key>Princeton Jetty</key>
+		<integer>123</integer>
+	</dict>
+	<key>San Francisco</key>
+	<dict>
+		<key>Fort Point</key>
+		<integer>113</integer>
+		<key>North Ocean Beach</key>
+		<integer>114</integer>
+		<key>South Ocean Beach</key>
+		<integer>117</integer>
+	</dict>
+	<key>Monterey</key>
+	<dict>
+		<key>Moss Landing</key>
+		<integer>161</integer>
+	</dict>
+	<key>San Luis Obispo</key>
+	<dict>
+		<key>Morro Bay</key>
+		<integer>163</integer>
+		<key>Pismo Beach</key>
+		<integer>162</integer>
+	</dict>
+	<key>Santa Barbara</key>
+	<dict>
+		<key>Campus Point</key>
+		<integer>179</integer>
+		<key>Leadbetter</key>
+		<integer>177</integer>
+		<key>Rincon</key>
+		<integer>198</integer>
+	</dict>
+	<key>Ventura</key>
+	<dict>
+		<key>Mondos</key>
+		<integer>193</integer>
+		<key>Emma Wood</key>
+		<integer>191</integer>
+		<key>C Street</key>
+		<integer>190</integer>
+		<key>Ventura Harbor</key>
+		<integer>189</integer>
+	</dict>
+	<key>Los Angeles</key>
+	<dict>
+		<key>County Line</key>
+		<integer>207</integer>
+		<key>Malibu</key>
+		<integer>205</integer>
+		<key>Topanga</key>
+		<integer>388</integer>
+		<key>Venice Beach</key>
+		<integer>204</integer>
+		<key>El Porto</key>
+		<integer>402</integer>
+		<key>Manhattan Beach</key>
+		<integer>203</integer>
+		<key>Torrance Beach</key>
+		<integer>200</integer>
+	</dict>
+	<key>Orange County</key>
+	<dict>
+		<key>Surfside</key>
+		<integer>602</integer>
+		<key>Anderson</key>
+		<integer>603</integer>
+		<key>Bolsa Chica</key>
+		<integer>604</integer>
+		<key>Goldenwest</key>
+		<integer>220</integer>
+		<key>17th Street</key>
+		<integer>605</integer>
+		<key>Huntington Pier</key>
+		<integer>221</integer>
+		<key>Huntington Beach</key>
+		<integer>643</integer>
+		<key>56th St</key>
+		<integer>219</integer>
+		<key>40th Street</key>
+		<integer>607</integer>
+		<key>36th Street</key>
+		<integer>608</integer>
+		<key>Newport Pier</key>
+		<integer>609</integer>
+		<key>The Wedge</key>
+		<integer>217</integer>
+		<key>Salt Creek</key>
+		<integer>214</integer>
+		<key>Doheny</key>
+		<integer>213</integer>
+		<key>San Clemente Pier</key>
+		<integer>212</integer>
+		<key>Cottons</key>
+		<integer>209</integer>
+		<key>Lower Trestles</key>
+		<integer>208</integer>
+		<key>San Onofre</key>
+		<integer>239</integer>
+	</dict>
+	<key>San Diego</key>
+	<dict>
+		<key>Oceanside Harbor</key>
+		<integer>238</integer>
+		<key>Tamarack</key>
+		<integer>237</integer>
+		<key>Terra Mar</key>
+		<integer>597</integer>
+		<key>Campground</key>
+		<integer>630</integer>
+		<key>Ponto</key>
+		<integer>236</integer>
+		<key>Grandview</key>
+		<integer>400</integer>
+		<key>Beacons</key>
+		<integer>235</integer>
+		<key>D Street</key>
+		<integer>401</integer>
+		<key>Swamis</key>
+		<integer>234</integer>
+		<key>Cardiff Reef</key>
+		<integer>232</integer>
+		<key>Solana Beach</key>
+		<integer>595</integer>
+		<key>Del Mar</key>
+		<integer>230</integer>
+		<key>Blacks</key>
+		<integer>229</integer>
+		<key>Scripps</key>
+		<integer>228</integer>
+		<key>Windansea</key>
+		<integer>227</integer>
+		<key>Bird Rock</key>
+		<integer>398</integer>
+		<key>Tourmaline</key>
+		<integer>399</integer>
+		<key>Pacific Beach</key>
+		<integer>226</integer>
+		<key>Mission Beach</key>
+		<integer>397</integer>
+		<key>Ocean Beach</key>
+		<integer>225</integer>
+		<key>Sunset Cliffs</key>
+		<integer>224</integer>
+		<key>Imperial Pier</key>
+		<integer>223</integer>
+	</dict>
+</dict>
+</plist>

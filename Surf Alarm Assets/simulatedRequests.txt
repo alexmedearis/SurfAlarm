@@ -1,0 +1,8 @@
+curl -d "device_id=e6071bf2dc9feac69d5e8b87a592cf5f57b94aad&push_token=F09EDF3F884508053D7DC4F90B613C133969A834396F282D49F02392D7267C7E" http://surf.alexmedearis.com/post_key.php
+
+curl -d "device_id=hello&location_id=1&location=cowells&county=santacruz&quality=1&time=245" http://surf.alexmedearis.com/post_alarm.php
+
+curl -d "location_id=1" http://surf.alexmedearis.com/display_location.php
+
+sunday 28th - 1:00
+
