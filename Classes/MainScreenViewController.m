@@ -162,7 +162,7 @@
 }
 
 
-- (IBAction) saveClicked: (id)sender{
+- (void)doSave {
     [self.HUD show:YES];
  	[self.criteria saveToUser:self.user];
     [self.user saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
@@ -177,7 +177,17 @@
             [alert show];
         }
     }];
-    
+}
+
+- (IBAction) saveClicked: (id)sender{
+    [self doSave];
+}
+
+- (IBAction)cancelClicked:(id)sender {
+    self.criteria.time = nil;
+	self.criteria.isDirty = YES;
+    [self updateUI];
+    [self doSave];
 }
 
 - (void)updateCriteriaString{
