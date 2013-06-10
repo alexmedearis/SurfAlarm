@@ -8,6 +8,7 @@
 
 #import "FUIButton.h"
 #import "UIImage+FlatUI.h"
+#import "UIColor+FlatUI.h"
 
 @interface FUIButton()
 @property(nonatomic) UIEdgeInsets defaultEdgeInsets;
@@ -22,8 +23,27 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.defaultEdgeInsets = self.titleEdgeInsets;
+        [self defaultColors];
     }
     return self;
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        self.defaultEdgeInsets = self.titleEdgeInsets;
+        [self defaultColors];
+    }
+    return self;
+}
+
+- (void)defaultColors {
+    self.buttonColor = [UIColor turquoiseColor];
+    self.shadowColor = [UIColor greenSeaColor];
+    self.shadowHeight = 3.0f;
+    self.cornerRadius = 6.0f;
+    [self setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
+    [self setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
 }
 
 - (void) setHighlighted:(BOOL)highlighted {
