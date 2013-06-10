@@ -20,6 +20,8 @@
 		00BC8E04176631B100BD81CF /* FUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC8E03176631B100BD81CF /* FUIButton.m */; };
 		00BC8E07176631C000BD81CF /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC8E06176631C000BD81CF /* UIImage+FlatUI.m */; };
 		00BC8E0A1766326E00BD81CF /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC8E091766326E00BD81CF /* UIColor+FlatUI.m */; };
+		00BC8E101766332900BD81CF /* FUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC8E0F1766332900BD81CF /* FUISegmentedControl.m */; };
+		00BC8E131766333900BD81CF /* UISlider+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC8E121766333900BD81CF /* UISlider+FlatUI.m */; };
 		00D6949B16B77B5400D161B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D6949A16B77B5400D161B5 /* Default-568h@2x.png */; };
 		00D694A716B77CB700D161B5 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D694A116B77CB700D161B5 /* Icon-Small@2x.png */; };
 		00D694A816B77CB700D161B5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D694A216B77CB700D161B5 /* Icon.png */; };
@@ -79,6 +81,10 @@
 		00BC8E06176631C000BD81CF /* UIImage+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FlatUI.m"; sourceTree = "<group>"; };
 		00BC8E081766326E00BD81CF /* UIColor+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatUI.h"; sourceTree = "<group>"; };
 		00BC8E091766326E00BD81CF /* UIColor+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatUI.m"; sourceTree = "<group>"; };
+		00BC8E0E1766332900BD81CF /* FUISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUISegmentedControl.h; sourceTree = "<group>"; };
+		00BC8E0F1766332900BD81CF /* FUISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUISegmentedControl.m; sourceTree = "<group>"; };
+		00BC8E111766333900BD81CF /* UISlider+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISlider+FlatUI.h"; sourceTree = "<group>"; };
+		00BC8E121766333900BD81CF /* UISlider+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISlider+FlatUI.m"; sourceTree = "<group>"; };
 		00D6949A16B77B5400D161B5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
 		00D694A116B77CB700D161B5 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
 		00D694A216B77CB700D161B5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
@@ -219,6 +225,10 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				00BC8E111766333900BD81CF /* UISlider+FlatUI.h */,
+				00BC8E121766333900BD81CF /* UISlider+FlatUI.m */,
+				00BC8E0E1766332900BD81CF /* FUISegmentedControl.h */,
+				00BC8E0F1766332900BD81CF /* FUISegmentedControl.m */,
 				00BC8E081766326E00BD81CF /* UIColor+FlatUI.h */,
 				00BC8E091766326E00BD81CF /* UIColor+FlatUI.m */,
 				00BC8E05176631C000BD81CF /* UIImage+FlatUI.h */,
@@ -374,6 +384,8 @@
 				00BC8E04176631B100BD81CF /* FUIButton.m in Sources */,
 				00BC8E07176631C000BD81CF /* UIImage+FlatUI.m in Sources */,
 				00BC8E0A1766326E00BD81CF /* UIColor+FlatUI.m in Sources */,
+				00BC8E101766332900BD81CF /* FUISegmentedControl.m in Sources */,
+				00BC8E131766333900BD81CF /* UISlider+FlatUI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

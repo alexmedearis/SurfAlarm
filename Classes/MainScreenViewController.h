@@ -10,6 +10,7 @@
 #import <Parse/Parse.h>
 #import "Criteria.h"
 #import "MBProgressHUD.h"
+#import "UISlider+FlatUI.h"
 
 
 @interface MainScreenViewController : UIViewController <MBProgressHUDDelegate>{

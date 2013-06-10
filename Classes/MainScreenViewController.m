@@ -10,6 +10,7 @@
 #import "MainScreenViewController.h"
 #import "TimePickerViewController.h"
 #import "CountyPickerViewController.h"
+#import "UIColor+FlatUI.h"
 
 @interface MainScreenViewController (PrivateMethods)
 
@@ -50,6 +51,10 @@
     HUD.delegate = self;
     HUD.labelText = @"Loading";
     self.HUD = HUD;
+    
+    [waveHeightSlider configureFlatSliderWithTrackColor:[UIColor silverColor]
+                                  progressColor:[UIColor alizarinColor]
+                                     thumbColor:[UIColor pomegranateColor]];
     
     [self loadUser];
 }
