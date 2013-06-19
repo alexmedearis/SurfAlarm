@@ -8,6 +8,7 @@
 
 #import "FUISegmentedControl.h"
 #import "UIImage+FlatUI.h"
+#import "UIColor+FlatUI.h"
 
 @implementation FUISegmentedControl
 
@@ -33,13 +34,13 @@
 
 - (void)defaultColors{
     self.cornerRadius = 5.0;
-    self.selectedColor = [UIColor blueColor];
-    self.deselectedColor = [UIColor darkGrayColor];
+    self.selectedColor = [UIColor turquoiseColor];
+    self.deselectedColor = [UIColor fadedColor];
     self.dividerColor = [UIColor grayColor];
     self.selectedFont = [UIFont fontWithName:@"Arial" size:15.0];
     self.deselectedFont = [UIFont fontWithName:@"Arial" size:15.0];
     self.selectedFontColor = [UIColor whiteColor];
-    self.deselectedFontColor = [UIColor whiteColor];
+    self.deselectedFontColor = [UIColor darkGrayColor];
 }
 
 - (void)setDeselectedColor:(UIColor *)deselectedColor {

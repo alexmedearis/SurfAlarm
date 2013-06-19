@@ -39,11 +39,11 @@
 
 - (void)defaultColors {
     self.buttonColor = [UIColor turquoiseColor];
-    self.shadowColor = [UIColor greenSeaColor];
+    self.shadowColor = [UIColor turquoiseShadowColor];
     self.shadowHeight = 3.0f;
     self.cornerRadius = 6.0f;
-    [self setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
-    [self setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
+    [self setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [self setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
 }
 
 - (void) setHighlighted:(BOOL)highlighted {

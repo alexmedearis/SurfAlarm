@@ -11,7 +11,7 @@
 #import "TimePickerViewController.h"
 #import "CountyPickerViewController.h"
 #import "UIColor+FlatUI.h"
-#import "UINavigationBar+FlatUI.h"
+#import "UINavigationBar+FlatUI.h"	
 
 @interface MainScreenViewController (PrivateMethods)
 
@@ -53,11 +53,11 @@
     HUD.labelText = @"Loading";
     self.HUD = HUD;
     
-    [waveHeightSlider configureFlatSliderWithTrackColor:[UIColor silverColor]
-                                  progressColor:[UIColor alizarinColor]
-                                     thumbColor:[UIColor pomegranateColor]];
+    [waveHeightSlider configureFlatSliderWithTrackColor:[UIColor fadedColor]
+                                  progressColor:[UIColor turquoiseColor]
+                                     thumbColor:[UIColor turquoiseShadowColor]];
     
-    [self.navigationController.navigationBar configureFlatNavigationBarWithColor:[UIColor midnightBlueColor]];
+    [self.navigationController.navigationBar configureFlatNavigationBarWithColor:[UIColor turquoiseColor]];
     
     [self loadUser];
 }
