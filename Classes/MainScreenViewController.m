@@ -59,6 +59,9 @@
     
     [self.navigationController.navigationBar configureFlatNavigationBarWithColor:[UIColor turquoiseColor]];
     
+    cancelButton.buttonColor = [UIColor cancelRedColor];
+    cancelButton.shadowColor = [UIColor redShadowColor];
+    
     [self loadUser];
 }
 
@@ -131,6 +134,7 @@
 - (void)viewDidUnload {
     waveHeightSlider = nil;
     waveFtLabel = nil;
+    cancelButton = nil;
     [super viewDidUnload];
 }
 

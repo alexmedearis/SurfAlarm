@@ -11,6 +11,7 @@
 #import "Criteria.h"
 #import "MBProgressHUD.h"
 #import "UISlider+FlatUI.h"
+#import "FUIButton.h"
 
 
 @interface MainScreenViewController : UIViewController <MBProgressHUDDelegate>{
@@ -22,6 +23,7 @@
 	IBOutlet UILabel * dirtyIndicatorLabel;
     IBOutlet UISlider *waveHeightSlider;
     IBOutlet UILabel *waveFtLabel;
+    IBOutlet FUIButton *cancelButton;
 	
     //two labels to show the currently selected values
 	UILabel *leftLabel;

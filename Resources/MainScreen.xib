@@ -369,7 +369,6 @@
 						<string key="NSFrame">{{164, 366}, {136, 44}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
@@ -627,6 +626,14 @@
 						<reference key="destination" ref="639351270"/>
 					</object>
 					<int key="connectionID">41</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">cancelButton</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="667805623"/>
+					</object>
+					<int key="connectionID">48</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -911,7 +918,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">47</int>
+			<int key="maxID">48</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -1000,6 +1007,7 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>alarmIndicatorLabel</string>
+							<string>cancelButton</string>
 							<string>conditionsSelector</string>
 							<string>dirtyIndicatorLabel</string>
 							<string>placeButton</string>
@@ -1011,6 +1019,7 @@
 						<object class="NSArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>UILabel</string>
+							<string>FUIButton</string>
 							<string>UISegmentedControl</string>
 							<string>UILabel</string>
 							<string>UIButton</string>
@@ -1025,6 +1034,7 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>alarmIndicatorLabel</string>
+							<string>cancelButton</string>
 							<string>conditionsSelector</string>
 							<string>dirtyIndicatorLabel</string>
 							<string>placeButton</string>
@@ -1038,6 +1048,10 @@
 							<object class="IBToOneOutletInfo">
 								<string key="name">alarmIndicatorLabel</string>
 								<string key="candidateClassName">UILabel</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">cancelButton</string>
+								<string key="candidateClassName">FUIButton</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">conditionsSelector</string>
