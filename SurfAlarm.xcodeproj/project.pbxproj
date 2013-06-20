@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		006E62E11772A5A00020E6C1 /* pickerOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 006E62E01772A5A00020E6C1 /* pickerOverlay.png */; };
 		00B167DD16B0E3FB005ED9CC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167DC16B0E3FB005ED9CC /* Parse.framework */; };
 		00B167DF16B0E458005ED9CC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167DE16B0E458005ED9CC /* AudioToolbox.framework */; };
 		00B167E116B0E45F005ED9CC /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167E016B0E45F005ED9CC /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -66,6 +67,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		006E62E01772A5A00020E6C1 /* pickerOverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickerOverlay.png; sourceTree = "<group>"; };
 		00B167DC16B0E3FB005ED9CC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		00B167DE16B0E458005ED9CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		00B167E016B0E45F005ED9CC /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
@@ -251,6 +253,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				006E62E01772A5A00020E6C1 /* pickerOverlay.png */,
 				00D694A116B77CB700D161B5 /* Icon-Small@2x.png */,
 				00D694A216B77CB700D161B5 /* Icon.png */,
 				00D694A316B77CB700D161B5 /* Icon@2x.png */,
@@ -367,6 +370,7 @@
 				00D694AA16B77CB700D161B5 /* Icon-72.png in Resources */,
 				00D694AB16B77CB700D161B5 /* Icon-Small-50.png in Resources */,
 				00D694AC16B77CB700D161B5 /* Icon-Small.png in Resources */,
+				006E62E11772A5A00020E6C1 /* pickerOverlay.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

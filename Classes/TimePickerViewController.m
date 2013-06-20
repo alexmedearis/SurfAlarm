@@ -61,13 +61,9 @@
 }
 */
 
-- (IBAction) dateChanged: (id)sender {
-	criteria.time = timePicker.date;
-	criteria.isDirty = YES;
-}
 
-- (IBAction) alarmOffClicked: (id)sender {
-	criteria.time = nil;
+- (IBAction)setTimeClicked:(id)sender {
+    criteria.time = timePicker.date;
 	criteria.isDirty = YES;
 	[self.navigationController popToRootViewControllerAnimated:YES];
 }

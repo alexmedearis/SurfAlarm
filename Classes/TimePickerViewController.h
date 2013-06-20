@@ -13,7 +13,6 @@
 @interface TimePickerViewController : UIViewController<UIPickerViewDelegate> {
 	Criteria * criteria;
 	IBOutlet UIDatePicker * timePicker;
-	IBOutlet UIButton * alarmOff;
 
 }
 
@@ -21,5 +20,5 @@
 			 criteria:(Criteria *)_criteria;
 
 - (IBAction) dateChanged: (id)sender;
-- (IBAction) alarmOffClicked: (id)sender;
+
 @end
