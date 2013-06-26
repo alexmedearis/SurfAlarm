@@ -1,0 +1,1889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Gulf Coast</key>
+	<dict>
+		<key>Florida Gulf Coast</key>
+		<dict>
+			<key>Redington Rocks</key>
+			<array>
+				<integer>1214</integer>
+				<string>/Redington-Rocks-Surf-Report/1214/</string>
+			</array>
+			<key>The Cross</key>
+			<array>
+				<integer>955</integer>
+				<string>/The-Cross-Surf-Report/955/</string>
+			</array>
+			<key>Treasure Island</key>
+			<array>
+				<integer>86</integer>
+				<string>/Treasure-Island-Surf-Report/86/</string>
+			</array>
+			<key>Clearwater</key>
+			<array>
+				<integer>60</integer>
+				<string>/Clearwater-Surf-Report/60/</string>
+			</array>
+			<key>Navarre Beach</key>
+			<array>
+				<integer>651</integer>
+				<string>/Navarre-Beach-Surf-Report/651/</string>
+			</array>
+			<key>Venice Beach</key>
+			<array>
+				<integer>58</integer>
+				<string>/Venice-Beach-Surf-Report/58/</string>
+			</array>
+			<key>Alabama Point</key>
+			<array>
+				<integer>956</integer>
+				<string>/Alabama-Point-Surf-Report/956/</string>
+			</array>
+			<key>Okaloosa Pier</key>
+			<array>
+				<integer>954</integer>
+				<string>/Okaloosa-Pier-Surf-Report/954/</string>
+			</array>
+			<key>Maderia Beach</key>
+			<array>
+				<integer>1187</integer>
+				<string>/Maderia-Beach-Surf-Report/1187/</string>
+			</array>
+			<key>Indian Rocks</key>
+			<array>
+				<integer>1212</integer>
+				<string>/Indian-Rocks-Surf-Report/1212/</string>
+			</array>
+			<key>Naples</key>
+			<array>
+				<integer>57</integer>
+				<string>/Naples-Surf-Report/57/</string>
+			</array>
+			<key>Destin</key>
+			<array>
+				<integer>851</integer>
+				<string>/Destin-Surf-Report/851/</string>
+			</array>
+			<key>Pass-A-Grille Jetty</key>
+			<array>
+				<integer>1221</integer>
+				<string>/Pass-A-Grille-Jetty-Surf-Report/1221/</string>
+			</array>
+			<key>Sunset Beach</key>
+			<array>
+				<integer>1215</integer>
+				<string>/Sunset-Beach-Surf-Report/1215/</string>
+			</array>
+			<key>Panama City Beach</key>
+			<array>
+				<integer>1259</integer>
+				<string>/Panama-City-Beach-Surf-Report/1259/</string>
+			</array>
+			<key>St Pete Beach</key>
+			<array>
+				<integer>1216</integer>
+				<string>/St-Pete-Beach-Surf-Report/1216/</string>
+			</array>
+			<key>Dauphin Island</key>
+			<array>
+				<integer>1125</integer>
+				<string>/Dauphin-Island-Surf-Report/1125/</string>
+			</array>
+		</dict>
+		<key>Texas</key>
+		<dict>
+			<key>Octagon</key>
+			<array>
+				<integer>360</integer>
+				<string>/Octagon-Surf-Report/360/</string>
+			</array>
+			<key>South Padre Island</key>
+			<array>
+				<integer>551</integer>
+				<string>/South-Padre-Island-Surf-Report/551/</string>
+			</array>
+			<key>Port Mansfield Jetties</key>
+			<array>
+				<integer>3943</integer>
+				<string>/Port-Mansfield-Jetties-Surf-Report/3943/</string>
+			</array>
+			<key>Meacoms Pier</key>
+			<array>
+				<integer>3667</integer>
+				<string>/Meacoms-Pier-Surf-Report/3667/</string>
+			</array>
+			<key>Horace Caldwell Pier</key>
+			<array>
+				<integer>3949</integer>
+				<string>/Horace-Caldwell-Pier-Surf-Report/3949/</string>
+			</array>
+			<key>Bob Hall Pier</key>
+			<array>
+				<integer>361</integer>
+				<string>/Bob-Hall-Pier-Surf-Report/361/</string>
+			</array>
+			<key>JP Luby Surf Park</key>
+			<array>
+				<integer>3950</integer>
+				<string>/JP-Luby-Surf-Park-Surf-Report/3950/</string>
+			</array>
+			<key>Quintana</key>
+			<array>
+				<integer>3952</integer>
+				<string>/Quintana-Surf-Report/3952/</string>
+			</array>
+			<key>Fish Pass Jetties</key>
+			<array>
+				<integer>3948</integer>
+				<string>/Fish-Pass-Jetties-Surf-Report/3948/</string>
+			</array>
+			<key>61st Street</key>
+			<array>
+				<integer>3944</integer>
+				<string>/61st-Street-Surf-Report/3944/</string>
+			</array>
+			<key>Matagorda</key>
+			<array>
+				<integer>3947</integer>
+				<string>/Matagorda-Surf-Report/3947/</string>
+			</array>
+			<key>Isla Blanca State Park</key>
+			<array>
+				<integer>3945</integer>
+				<string>/Isla-Blanca-State-Park-Surf-Report/3945/</string>
+			</array>
+			<key>37th Street</key>
+			<array>
+				<integer>3954</integer>
+				<string>/37th-Street-Surf-Report/3954/</string>
+			</array>
+			<key>Boca Chica</key>
+			<array>
+				<integer>3946</integer>
+				<string>/Boca-Chica-Surf-Report/3946/</string>
+			</array>
+			<key>Surfside</key>
+			<array>
+				<integer>3953</integer>
+				<string>/Surfside-Surf-Report/3953/</string>
+			</array>
+			<key>Flagship</key>
+			<array>
+				<integer>3951</integer>
+				<string>/Flagship-Surf-Report/3951/</string>
+			</array>
+		</dict>
+		<key>Mexico Gulf Coast</key>
+		<dict>
+			<key>Cancun</key>
+			<array>
+				<integer>790</integer>
+				<string>/Cancun-Surf-Report/790/</string>
+			</array>
+			<key>Puerto Morelos</key>
+			<array>
+				<integer>4045</integer>
+				<string>/Puerto-Morelos-Surf-Report/4045/</string>
+			</array>
+			<key>Cozumel</key>
+			<array>
+				<integer>642</integer>
+				<string>/Cozumel-Surf-Report/642/</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Northeast</key>
+	<dict>
+		<key>New Jersey - Atlantic City</key>
+		<dict>
+			<key>Longport, 32nd St.</key>
+			<array>
+				<integer>1158</integer>
+				<string>/Longport-32nd-St-Surf-Report/1158/</string>
+			</array>
+			<key>States Avenue</key>
+			<array>
+				<integer>390</integer>
+				<string>/States-Avenue-Surf-Report/390/</string>
+			</array>
+			<key>Ocean City, NJ</key>
+			<array>
+				<integer>391</integer>
+				<string>/Ocean-City-NJ-Surf-Report/391/</string>
+			</array>
+			<key>Margate Pier</key>
+			<array>
+				<integer>4054</integer>
+				<string>/Margate-Pier-Surf-Report/4054/</string>
+			</array>
+		</dict>
+		<key>Rhode Island - East</key>
+		<dict>
+			<key>2nd Beach (Sachuest Beach)</key>
+			<array>
+				<integer>846</integer>
+				<string>/2nd-Beach-Sachuest-Beach-Surf-Report/846/</string>
+			</array>
+			<key>1st Beach (Eastons Beach)</key>
+			<array>
+				<integer>907</integer>
+				<string>/1st-Beach-Eastons-Beach-Surf-Report/907/</string>
+			</array>
+			<key>Ruggles</key>
+			<array>
+				<integer>374</integer>
+				<string>/Ruggles-Surf-Report/374/</string>
+			</array>
+			<key>Elbow Ledge</key>
+			<array>
+				<integer>574</integer>
+				<string>/Elbow-Ledge-Surf-Report/574/</string>
+			</array>
+			<key>South Shore Beach</key>
+			<array>
+				<integer>2967</integer>
+				<string>/South-Shore-Beach-Surf-Report/2967/</string>
+			</array>
+			<key>Bailey&apos;s Beach</key>
+			<array>
+				<integer>2096</integer>
+				<string>/Baileys-Beach-Surf-Report/2096/</string>
+			</array>
+		</dict>
+		<key>New Jersey - Cape May</key>
+		<dict>
+			<key>Avalon</key>
+			<array>
+				<integer>821</integer>
+				<string>/Avalon-Surf-Report/821/</string>
+			</array>
+			<key>Stockton</key>
+			<array>
+				<integer>393</integer>
+				<string>/Stockton-Surf-Report/393/</string>
+			</array>
+			<key>Sea Isle City</key>
+			<array>
+				<integer>1281</integer>
+				<string>/Sea-Isle-City-Surf-Report/1281/</string>
+			</array>
+			<key>Wildwood</key>
+			<array>
+				<integer>392</integer>
+				<string>/Wildwood-Surf-Report/392/</string>
+			</array>
+			<key>Poverty Beach</key>
+			<array>
+				<integer>4056</integer>
+				<string>/Poverty-Beach-Surf-Report/4056/</string>
+			</array>
+		</dict>
+		<key>Massachusetts - South</key>
+		<dict>
+			<key>Lucy Vincent</key>
+			<array>
+				<integer>977</integer>
+				<string>/Lucy-Vincent-Surf-Report/977/</string>
+			</array>
+			<key>Scituate</key>
+			<array>
+				<integer>372</integer>
+				<string>/Scituate-Surf-Report/372/</string>
+			</array>
+			<key>Abels Hill</key>
+			<array>
+				<integer>978</integer>
+				<string>/Abels-Hill-Surf-Report/978/</string>
+			</array>
+			<key>Plymouth Beach</key>
+			<array>
+				<integer>864</integer>
+				<string>/Plymouth-Beach-Surf-Report/864/</string>
+			</array>
+			<key>Long Point</key>
+			<array>
+				<integer>975</integer>
+				<string>/Long-Point-Surf-Report/975/</string>
+			</array>
+			<key>Squibnocket</key>
+			<array>
+				<integer>974</integer>
+				<string>/Squibnocket-Surf-Report/974/</string>
+			</array>
+			<key>South Beach</key>
+			<array>
+				<integer>976</integer>
+				<string>/South-Beach-Surf-Report/976/</string>
+			</array>
+			<key>New England Hurricane</key>
+			<array>
+				<integer>1095</integer>
+				<string>/New-England-Hurricane-Surf-Report/1095/</string>
+			</array>
+			<key>Cape Cod</key>
+			<array>
+				<integer>373</integer>
+				<string>/Cape-Cod-Surf-Report/373/</string>
+			</array>
+		</dict>
+		<key>Long Island - East</key>
+		<dict>
+			<key>North Bar</key>
+			<array>
+				<integer>378</integer>
+				<string>/North-Bar-Surf-Report/378/</string>
+			</array>
+			<key>Fortress</key>
+			<array>
+				<integer>379</integer>
+				<string>/Fortress-Surf-Report/379/</string>
+			</array>
+			<key>Turtle Cove</key>
+			<array>
+				<integer>2161</integer>
+				<string>/Turtle-Cove-Surf-Report/2161/</string>
+			</array>
+			<key>Atlantic Terrace</key>
+			<array>
+				<integer>2160</integer>
+				<string>/Atlantic-Terrace-Surf-Report/2160/</string>
+			</array>
+			<key>Ditch Plains</key>
+			<array>
+				<integer>2159</integer>
+				<string>/Ditch-Plains-Surf-Report/2159/</string>
+			</array>
+		</dict>
+		<key>Maine - South</key>
+		<dict>
+			<key>Short Sands</key>
+			<array>
+				<integer>366</integer>
+				<string>/Short-Sands-Surf-Report/366/</string>
+			</array>
+			<key>Ogunquit River</key>
+			<array>
+				<integer>365</integer>
+				<string>/Ogunquit-River-Surf-Report/365/</string>
+			</array>
+			<key>Long Sands</key>
+			<array>
+				<integer>367</integer>
+				<string>/Long-Sands-Surf-Report/367/</string>
+			</array>
+		</dict>
+		<key>Long Island - West</key>
+		<dict>
+			<key>Jones Beach State Park</key>
+			<array>
+				<integer>2162</integer>
+				<string>/Jones-Beach-State-Park-Surf-Report/2162/</string>
+			</array>
+			<key>Long Beach</key>
+			<array>
+				<integer>383</integer>
+				<string>/Long-Beach-Surf-Report/383/</string>
+			</array>
+			<key>Robert Moses State Park</key>
+			<array>
+				<integer>381</integer>
+				<string>/Robert-Moses-State-Park-Surf-Report/381/</string>
+			</array>
+			<key>Rockaway</key>
+			<array>
+				<integer>384</integer>
+				<string>/Rockaway-Surf-Report/384/</string>
+			</array>
+			<key>Tobay Beach</key>
+			<array>
+				<integer>1240</integer>
+				<string>/Tobay-Beach-Surf-Report/1240/</string>
+			</array>
+			<key>Mastic Beach</key>
+			<array>
+				<integer>870</integer>
+				<string>/Mastic-Beach-Surf-Report/870/</string>
+			</array>
+			<key>Fire Island</key>
+			<array>
+				<integer>380</integer>
+				<string>/Fire-Island-Surf-Report/380/</string>
+			</array>
+			<key>Lido Beach</key>
+			<array>
+				<integer>382</integer>
+				<string>/Lido-Beach-Surf-Report/382/</string>
+			</array>
+		</dict>
+		<key>Nova Scotia</key>
+		<dict>
+			<key>Nova Scotia Hurricane</key>
+			<array>
+				<integer>1096</integer>
+				<string>/Nova-Scotia-Hurricane-Surf-Report/1096/</string>
+			</array>
+			<key>Lawrencetown</key>
+			<array>
+				<integer>342</integer>
+				<string>/Lawrencetown-Surf-Report/342/</string>
+			</array>
+			<key>Point Michaud</key>
+			<array>
+				<integer>759</integer>
+				<string>/Point-Michaud-Surf-Report/759/</string>
+			</array>
+			<key>Martinique Beach</key>
+			<array>
+				<integer>814</integer>
+				<string>/Martinique-Beach-Surf-Report/814/</string>
+			</array>
+			<key>Western Head</key>
+			<array>
+				<integer>343</integer>
+				<string>/Western-Head-Surf-Report/343/</string>
+			</array>
+			<key>Summerville</key>
+			<array>
+				<integer>788</integer>
+				<string>/Summerville-Surf-Report/788/</string>
+			</array>
+			<key>Cow Bay</key>
+			<array>
+				<integer>787</integer>
+				<string>/Cow-Bay-Surf-Report/787/</string>
+			</array>
+		</dict>
+		<key>Massachusetts - Boston Area</key>
+		<dict>
+			<key>Nahant</key>
+			<array>
+				<integer>1091</integer>
+				<string>/Nahant-Surf-Report/1091/</string>
+			</array>
+			<key>Cape Ann</key>
+			<array>
+				<integer>370</integer>
+				<string>/Cape-Ann-Surf-Report/370/</string>
+			</array>
+			<key>Salisbury</key>
+			<array>
+				<integer>1130</integer>
+				<string>/Salisbury-Surf-Report/1130/</string>
+			</array>
+			<key>Nantasket Beach</key>
+			<array>
+				<integer>371</integer>
+				<string>/Nantasket-Beach-Surf-Report/371/</string>
+			</array>
+		</dict>
+		<key>Maine - North</key>
+		<dict>
+			<key>Higgins Beach</key>
+			<array>
+				<integer>362</integer>
+				<string>/Higgins-Beach-Surf-Report/362/</string>
+			</array>
+			<key>Scarborough Beach</key>
+			<array>
+				<integer>3710</integer>
+				<string>/Scarborough-Beach-Surf-Report/3710/</string>
+			</array>
+			<key>Kennebunk Beach</key>
+			<array>
+				<integer>364</integer>
+				<string>/Kennebunk-Beach-Surf-Report/364/</string>
+			</array>
+			<key>Popham Beach</key>
+			<array>
+				<integer>3785</integer>
+				<string>/Popham-Beach-Surf-Report/3785/</string>
+			</array>
+			<key>Fortunes Rocks</key>
+			<array>
+				<integer>363</integer>
+				<string>/Fortunes-Rocks-Surf-Report/363/</string>
+			</array>
+			<key>Old Orchard Beach</key>
+			<array>
+				<integer>852</integer>
+				<string>/Old-Orchard-Beach-Surf-Report/852/</string>
+			</array>
+		</dict>
+		<key>Rhode Island - West</key>
+		<dict>
+			<key>K38/39</key>
+			<array>
+				<integer>785</integer>
+				<string>/K38-39-Surf-Report/785/</string>
+			</array>
+			<key>Misquamicut</key>
+			<array>
+				<integer>783</integer>
+				<string>/Misquamicut-Surf-Report/783/</string>
+			</array>
+			<key>Lighthouse (Point Judith)</key>
+			<array>
+				<integer>376</integer>
+				<string>/Lighthouse-Point-Judith-Surf-Report/376/</string>
+			</array>
+			<key>Breachway</key>
+			<array>
+				<integer>784</integer>
+				<string>/Breachway-Surf-Report/784/</string>
+			</array>
+			<key>Narragansett Beach</key>
+			<array>
+				<integer>1103</integer>
+				<string>/Narragansett-Beach-Surf-Report/1103/</string>
+			</array>
+			<key>Block Island</key>
+			<array>
+				<integer>4057</integer>
+				<string>/Block-Island-Surf-Report/4057/</string>
+			</array>
+			<key>Monahan&apos;s Dock</key>
+			<array>
+				<integer>375</integer>
+				<string>/Monahans-Dock-Surf-Report/375/</string>
+			</array>
+			<key>Weekapaug</key>
+			<array>
+				<integer>4058</integer>
+				<string>/Weekapaug-Surf-Report/4058/</string>
+			</array>
+			<key>East Beach</key>
+			<array>
+				<integer>4059</integer>
+				<string>/East-Beach-Surf-Report/4059/</string>
+			</array>
+			<key>Matunuck</key>
+			<array>
+				<integer>377</integer>
+				<string>/Matunuck-Surf-Report/377/</string>
+			</array>
+		</dict>
+		<key>New Hampshire</key>
+		<dict>
+			<key>Linkys</key>
+			<array>
+				<integer>2075</integer>
+				<string>/Linkys-Surf-Report/2075/</string>
+			</array>
+			<key>Hampton Beach</key>
+			<array>
+				<integer>2074</integer>
+				<string>/Hampton-Beach-Surf-Report/2074/</string>
+			</array>
+			<key>The Wall</key>
+			<array>
+				<integer>369</integer>
+				<string>/The-Wall-Surf-Report/369/</string>
+			</array>
+			<key>Jenness Beach</key>
+			<array>
+				<integer>881</integer>
+				<string>/Jenness-Beach-Surf-Report/881/</string>
+			</array>
+			<key>Seabrook Beach</key>
+			<array>
+				<integer>2078</integer>
+				<string>/Seabrook-Beach-Surf-Report/2078/</string>
+			</array>
+			<key>Costellos</key>
+			<array>
+				<integer>2077</integer>
+				<string>/Costellos-Surf-Report/2077/</string>
+			</array>
+			<key>Rye Rocks</key>
+			<array>
+				<integer>368</integer>
+				<string>/Rye-Rocks-Surf-Report/368/</string>
+			</array>
+		</dict>
+		<key>New Jersey - Monmouth County</key>
+		<dict>
+			<key>Belmar</key>
+			<array>
+				<integer>3683</integer>
+				<string>/Belmar-Surf-Report/3683/</string>
+			</array>
+			<key>The Cove</key>
+			<array>
+				<integer>385</integer>
+				<string>/The-Cove-Surf-Report/385/</string>
+			</array>
+			<key>Deal</key>
+			<array>
+				<integer>822</integer>
+				<string>/Deal-Surf-Report/822/</string>
+			</array>
+			<key>Monmouth Beach</key>
+			<array>
+				<integer>4055</integer>
+				<string>/Monmouth-Beach-Surf-Report/4055/</string>
+			</array>
+			<key>Manasquan</key>
+			<array>
+				<integer>386</integer>
+				<string>/Manasquan-Surf-Report/386/</string>
+			</array>
+			<key>Asbury Park</key>
+			<array>
+				<integer>857</integer>
+				<string>/Asbury-Park-Surf-Report/857/</string>
+			</array>
+			<key>Avon</key>
+			<array>
+				<integer>4050</integer>
+				<string>/Avon-Surf-Report/4050/</string>
+			</array>
+			<key>Jenkinsons</key>
+			<array>
+				<integer>4053</integer>
+				<string>/Jenkinsons-Surf-Report/4053/</string>
+			</array>
+		</dict>
+		<key>New Jersey - Ocean County</key>
+		<dict>
+			<key>New Jersey Hurricane</key>
+			<array>
+				<integer>1094</integer>
+				<string>/New-Jersey-Hurricane-Surf-Report/1094/</string>
+			</array>
+			<key>Island Beach State Park</key>
+			<array>
+				<integer>4052</integer>
+				<string>/Island-Beach-State-Park-Surf-Report/4052/</string>
+			</array>
+			<key>Surf City</key>
+			<array>
+				<integer>388</integer>
+				<string>/Surf-City-Surf-Report/388/</string>
+			</array>
+			<key>Holyoke</key>
+			<array>
+				<integer>389</integer>
+				<string>/Holyoke-Surf-Report/389/</string>
+			</array>
+			<key>Casino Pier</key>
+			<array>
+				<integer>387</integer>
+				<string>/Casino-Pier-Surf-Report/387/</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Southeast</key>
+	<dict>
+		<key>Brevard County</key>
+		<dict>
+			<key>Playa Linda</key>
+			<array>
+				<integer>349</integer>
+				<string>/Playa-Linda-Surf-Report/349/</string>
+			</array>
+			<key>Jetty Park</key>
+			<array>
+				<integer>1264</integer>
+				<string>/Jetty-Park-Surf-Report/1264/</string>
+			</array>
+			<key>Melbourne Beach</key>
+			<array>
+				<integer>351</integer>
+				<string>/Melbourne-Beach-Surf-Report/351/</string>
+			</array>
+			<key>Cocoa Beach</key>
+			<array>
+				<integer>350</integer>
+				<string>/Cocoa-Beach-Surf-Report/350/</string>
+			</array>
+			<key>Satellite Beach</key>
+			<array>
+				<integer>548</integer>
+				<string>/Satellite-Beach-Surf-Report/548/</string>
+			</array>
+		</dict>
+		<key>North Carolina - Outer Banks South</key>
+		<dict>
+			<key>Frisco</key>
+			<array>
+				<integer>1080</integer>
+				<string>/Frisco-Surf-Report/1080/</string>
+			</array>
+			<key>Outer Banks Hurricane</key>
+			<array>
+				<integer>1093</integer>
+				<string>/Outer-Banks-Hurricane-Surf-Report/1093/</string>
+			</array>
+			<key>Atlantic Beach</key>
+			<array>
+				<integer>706</integer>
+				<string>/Atlantic-Beach-Surf-Report/706/</string>
+			</array>
+			<key>Cape Hatteras</key>
+			<array>
+				<integer>399</integer>
+				<string>/Cape-Hatteras-Surf-Report/399/</string>
+			</array>
+			<key>S Turns</key>
+			<array>
+				<integer>398</integer>
+				<string>/S-Turns-Surf-Report/398/</string>
+			</array>
+			<key>Bogue Pier</key>
+			<array>
+				<integer>400</integer>
+				<string>/Bogue-Pier-Surf-Report/400/</string>
+			</array>
+		</dict>
+		<key>North Carolina - South</key>
+		<dict>
+			<key>Holden Beach</key>
+			<array>
+				<integer>684</integer>
+				<string>/Holden-Beach-Surf-Report/684/</string>
+			</array>
+			<key>Crystal Pier</key>
+			<array>
+				<integer>402</integer>
+				<string>/Crystal-Pier-Surf-Report/402/</string>
+			</array>
+			<key>Pelican Watch</key>
+			<array>
+				<integer>403</integer>
+				<string>/Pelican-Watch-Surf-Report/403/</string>
+			</array>
+			<key>Carolina Beach</key>
+			<array>
+				<integer>650</integer>
+				<string>/Carolina-Beach-Surf-Report/650/</string>
+			</array>
+			<key>Ocean Isle Beach</key>
+			<array>
+				<integer>675</integer>
+				<string>/Ocean-Isle-Beach-Surf-Report/675/</string>
+			</array>
+			<key>Topsail Island</key>
+			<array>
+				<integer>401</integer>
+				<string>/Topsail-Island-Surf-Report/401/</string>
+			</array>
+			<key>Camp Lejeune</key>
+			<array>
+				<integer>3664</integer>
+				<string>/Camp-Lejeune-Surf-Report/3664/</string>
+			</array>
+		</dict>
+		<key>South Carolina - South</key>
+		<dict>
+			<key>Fripp Island</key>
+			<array>
+				<integer>736</integer>
+				<string>/Fripp-Island-Surf-Report/736/</string>
+			</array>
+			<key>The Washout</key>
+			<array>
+				<integer>406</integer>
+				<string>/The-Washout-Surf-Report/406/</string>
+			</array>
+			<key>Folly Beach Pier</key>
+			<array>
+				<integer>672</integer>
+				<string>/Folly-Beach-Pier-Surf-Report/672/</string>
+			</array>
+			<key>Hunting Island</key>
+			<array>
+				<integer>407</integer>
+				<string>/Hunting-Island-Surf-Report/407/</string>
+			</array>
+			<key>Isle of Palms Pier</key>
+			<array>
+				<integer>760</integer>
+				<string>/Isle-of-Palms-Pier-Surf-Report/760/</string>
+			</array>
+			<key>Burkes Beach</key>
+			<array>
+				<integer>3708</integer>
+				<string>/Burkes-Beach-Surf-Report/3708/</string>
+			</array>
+		</dict>
+		<key>Indian River, St Lucie and Martin Counties</key>
+		<dict>
+			<key>Walton Rocks</key>
+			<array>
+				<integer>1243</integer>
+				<string>/Walton-Rocks-Surf-Report/1243/</string>
+			</array>
+			<key>Jensen Beach</key>
+			<array>
+				<integer>3770</integer>
+				<string>/Jensen-Beach-Surf-Report/3770/</string>
+			</array>
+			<key>Stuart Public Beach</key>
+			<array>
+				<integer>3776</integer>
+				<string>/Stuart-Public-Beach-Surf-Report/3776/</string>
+			</array>
+			<key>Vero Beach</key>
+			<array>
+				<integer>727</integer>
+				<string>/Vero-Beach-Surf-Report/727/</string>
+			</array>
+			<key>Sebastian Inlet</key>
+			<array>
+				<integer>352</integer>
+				<string>/Sebastian-Inlet-Surf-Report/352/</string>
+			</array>
+			<key>Fort Pierce North Jetty</key>
+			<array>
+				<integer>3775</integer>
+				<string>/Fort-Pierce-North-Jetty-Surf-Report/3775/</string>
+			</array>
+			<key>Hobe Sound</key>
+			<array>
+				<integer>3779</integer>
+				<string>/Hobe-Sound-Surf-Report/3779/</string>
+			</array>
+			<key>Fort Pierce</key>
+			<array>
+				<integer>692</integer>
+				<string>/Fort-Pierce-Surf-Report/692/</string>
+			</array>
+			<key>Stuart Beach</key>
+			<array>
+				<integer>353</integer>
+				<string>/Stuart-Beach-Surf-Report/353/</string>
+			</array>
+		</dict>
+		<key>Martin Co. - South/Palm Beach Co. North</key>
+		<dict>
+			<key>Jupiter Inlet</key>
+			<array>
+				<integer>354</integer>
+				<string>/Jupiter-Inlet-Surf-Report/354/</string>
+			</array>
+			<key>Reef Road</key>
+			<array>
+				<integer>355</integer>
+				<string>/Reef-Road-Surf-Report/355/</string>
+			</array>
+			<key>Juno Pier</key>
+			<array>
+				<integer>3777</integer>
+				<string>/Juno-Pier-Surf-Report/3777/</string>
+			</array>
+			<key>Palm Beach Jetties</key>
+			<array>
+				<integer>3778</integer>
+				<string>/Palm-Beach-Jetties-Surf-Report/3778/</string>
+			</array>
+			<key>Palm Beach</key>
+			<array>
+				<integer>356</integer>
+				<string>/Palm-Beach-Surf-Report/356/</string>
+			</array>
+		</dict>
+		<key>North Carolina - Outer Banks North</key>
+		<dict>
+			<key>Kitty Hawk</key>
+			<array>
+				<integer>677</integer>
+				<string>/Kitty-Hawk-Surf-Report/677/</string>
+			</array>
+			<key>Kill Devil Hills</key>
+			<array>
+				<integer>397</integer>
+				<string>/Kill-Devil-Hills-Surf-Report/397/</string>
+			</array>
+		</dict>
+		<key>Georgia</key>
+		<dict>
+			<key>17th Street Boardwalk</key>
+			<array>
+				<integer>2153</integer>
+				<string>/17th-Street-Boardwalk-Surf-Report/2153/</string>
+			</array>
+			<key>2nd Street (Tybee Island)</key>
+			<array>
+				<integer>643</integer>
+				<string>/2nd-Street-Tybee-Island-Surf-Report/643/</string>
+			</array>
+			<key>Comfort Inn/Jekyll Island</key>
+			<array>
+				<integer>408</integer>
+				<string>/Comfort-Inn-Jekyll-Island-Surf-Report/408/</string>
+			</array>
+			<key>Sea Island Jetty</key>
+			<array>
+				<integer>3932</integer>
+				<string>/Sea-Island-Jetty-Surf-Report/3932/</string>
+			</array>
+			<key>North Jetty</key>
+			<array>
+				<integer>2155</integer>
+				<string>/North-Jetty-Surf-Report/2155/</string>
+			</array>
+		</dict>
+		<key>Nassau, Duval and St Johns Counties</key>
+		<dict>
+			<key>Jacksonville Beach</key>
+			<array>
+				<integer>345</integer>
+				<string>/Jacksonville-Beach-Surf-Report/345/</string>
+			</array>
+			<key>Main Beach</key>
+			<array>
+				<integer>344</integer>
+				<string>/Main-Beach-Surf-Report/344/</string>
+			</array>
+			<key>North Jetty (Florida)</key>
+			<array>
+				<integer>3772</integer>
+				<string>/North-Jetty-Florida-Surf-Report/3772/</string>
+			</array>
+			<key>Ponte Vedra</key>
+			<array>
+				<integer>3773</integer>
+				<string>/Ponte-Vedra-Surf-Report/3773/</string>
+			</array>
+			<key>Little Talbot Island</key>
+			<array>
+				<integer>3774</integer>
+				<string>/Little-Talbot-Island-Surf-Report/3774/</string>
+			</array>
+			<key>St. Augustine</key>
+			<array>
+				<integer>346</integer>
+				<string>/St-Augustine-Surf-Report/346/</string>
+			</array>
+		</dict>
+		<key>Flagler and Volusia Counties</key>
+		<dict>
+			<key>Central Florida Hurricane</key>
+			<array>
+				<integer>1092</integer>
+				<string>/Central-Florida-Hurricane-Surf-Report/1092/</string>
+			</array>
+			<key>Flagler Pier</key>
+			<array>
+				<integer>347</integer>
+				<string>/Flagler-Pier-Surf-Report/347/</string>
+			</array>
+			<key>The Inlet (New Smyrna)</key>
+			<array>
+				<integer>348</integer>
+				<string>/The-Inlet-New-Smyrna-Surf-Report/348/</string>
+			</array>
+			<key>Bethune</key>
+			<array>
+				<integer>3771</integer>
+				<string>/Bethune-Surf-Report/3771/</string>
+			</array>
+			<key>Daytona Beach</key>
+			<array>
+				<integer>670</integer>
+				<string>/Daytona-Beach-Surf-Report/670/</string>
+			</array>
+		</dict>
+		<key>Broward and Dade Counties</key>
+		<dict>
+			<key>Haulover</key>
+			<array>
+				<integer>358</integer>
+				<string>/Haulover-Surf-Report/358/</string>
+			</array>
+			<key>Fort Lauderdale</key>
+			<array>
+				<integer>837</integer>
+				<string>/Fort-Lauderdale-Surf-Report/837/</string>
+			</array>
+			<key>Deerfield Beach</key>
+			<array>
+				<integer>357</integer>
+				<string>/Deerfield-Beach-Surf-Report/357/</string>
+			</array>
+			<key>South Beach</key>
+			<array>
+				<integer>359</integer>
+				<string>/South-Beach-Surf-Report/359/</string>
+			</array>
+		</dict>
+		<key>South Carolina - North</key>
+		<dict>
+			<key>The Pier (Pawleys Island)</key>
+			<array>
+				<integer>989</integer>
+				<string>/The-Pier-Pawleys-Island-Surf-Report/989/</string>
+			</array>
+			<key>Dunes Cove</key>
+			<array>
+				<integer>404</integer>
+				<string>/Dunes-Cove-Surf-Report/404/</string>
+			</array>
+			<key>Garden City Pier</key>
+			<array>
+				<integer>405</integer>
+				<string>/Garden-City-Pier-Surf-Report/405/</string>
+			</array>
+			<key>Cherry Grove Pier</key>
+			<array>
+				<integer>2087</integer>
+				<string>/Cherry-Grove-Pier-Surf-Report/2087/</string>
+			</array>
+			<key>Springmaid Beach</key>
+			<array>
+				<integer>902</integer>
+				<string>/Springmaid-Beach-Surf-Report/902/</string>
+			</array>
+			<key>27th Ave/North Myrtle</key>
+			<array>
+				<integer>2152</integer>
+				<string>/27th-Ave-North-Myrtle-Surf-Report/2152/</string>
+			</array>
+		</dict>
+		<key>Palm Beach County - South</key>
+		<dict>
+			<key>Juno Beach</key>
+			<array>
+				<integer>849</integer>
+				<string>/Juno-Beach-Surf-Report/849/</string>
+			</array>
+			<key>Lake Worth Pier</key>
+			<array>
+				<integer>835</integer>
+				<string>/Lake-Worth-Pier-Surf-Report/835/</string>
+			</array>
+			<key>Boynton Inlet</key>
+			<array>
+				<integer>1167</integer>
+				<string>/Boynton-Inlet-Surf-Report/1167/</string>
+			</array>
+		</dict>
+	</dict>
+	<key>California</key>
+	<dict>
+		<key>North</key>
+		<dict>
+			<key>Point Dume</key>
+			<array>
+				<integer>854</integer>
+				<string>/Point-Dume-Surf-Report/854/</string>
+			</array>
+			<key>Zero/Nicholas Canyon County Beach</key>
+			<array>
+				<integer>2643</integer>
+				<string>/Zero-Nicholas-Canyon-County-Beach-Surf-Report/2643/</string>
+			</array>
+			<key>Zuma Beach County Park</key>
+			<array>
+				<integer>853</integer>
+				<string>/Zuma-Beach-County-Park-Surf-Report/853/</string>
+			</array>
+			<key>Secos</key>
+			<array>
+				<integer>278</integer>
+				<string>/Secos-Surf-Report/278/</string>
+			</array>
+			<key>Malibu - First Point</key>
+			<array>
+				<integer>279</integer>
+				<string>/Malibu-First-Point-Surf-Report/279/</string>
+			</array>
+			<key>Point Dume State Beach/Westward Beach/Drainpipes</key>
+			<array>
+				<integer>2610</integer>
+				<string>/Point-Dume-State-Beach-Westward-Beach-Drainpipes-Surf-Report/2610/</string>
+			</array>
+			<key>Leo Carrillo State Beach/Secos/Arroyo Sequit</key>
+			<array>
+				<integer>2642</integer>
+				<string>/Leo-Carrillo-State-Beach-Secos-Arroyo-Sequit-Surf-Report/2642/</string>
+			</array>
+		</dict>
+		<key>Orange County - North</key>
+		<dict>
+			<key>Dolphin Street</key>
+			<array>
+				<integer>2592</integer>
+				<string>/Dolphin-Street-Surf-Report/2592/</string>
+			</array>
+			<key>Surfside Jetty</key>
+			<array>
+				<integer>2594</integer>
+				<string>/Surfside-Jetty-Surf-Report/2594/</string>
+			</array>
+			<key>Newport Beach</key>
+			<array>
+				<integer>665</integer>
+				<string>/Newport-Beach-Surf-Report/665/</string>
+			</array>
+			<key>Goldenwest</key>
+			<array>
+				<integer>4039</integer>
+				<string>/Goldenwest-Surf-Report/4039/</string>
+			</array>
+			<key>7th Street</key>
+			<array>
+				<integer>2593</integer>
+				<string>/7th-Street-Surf-Report/2593/</string>
+			</array>
+			<key>Santa Ana River Jetties</key>
+			<array>
+				<integer>2577</integer>
+				<string>/Santa-Ana-River-Jetties-Surf-Report/2577/</string>
+			</array>
+			<key>Blackies</key>
+			<array>
+				<integer>2575</integer>
+				<string>/Blackies-Surf-Report/2575/</string>
+			</array>
+			<key>Huntington Pier</key>
+			<array>
+				<integer>286</integer>
+				<string>/Huntington-Pier-Surf-Report/286/</string>
+			</array>
+			<key>Bolsa Chica</key>
+			<array>
+				<integer>3797</integer>
+				<string>/Bolsa-Chica-Surf-Report/3797/</string>
+			</array>
+			<key>13th Street</key>
+			<array>
+				<integer>2599</integer>
+				<string>/13th-Street-Surf-Report/2599/</string>
+			</array>
+			<key>The Wedge</key>
+			<array>
+				<integer>287</integer>
+				<string>/The-Wedge-Surf-Report/287/</string>
+			</array>
+			<key>Seal Beach Pier</key>
+			<array>
+				<integer>285</integer>
+				<string>/Seal-Beach-Pier-Surf-Report/285/</string>
+			</array>
+		</dict>
+		<key>Santa Cruz County - South</key>
+		<dict>
+			<key>Pleasure Point</key>
+			<array>
+				<integer>644</integer>
+				<string>/Pleasure-Point-Surf-Report/644/</string>
+			</array>
+			<key>Manresa Beach</key>
+			<array>
+				<integer>258</integer>
+				<string>/Manresa-Beach-Surf-Report/258/</string>
+			</array>
+		</dict>
+		<key>Orange County - South</key>
+		<dict>
+			<key>204s</key>
+			<array>
+				<integer>2591</integer>
+				<string>/204s-Surf-Report/2591/</string>
+			</array>
+			<key>Agate/Pearl Street</key>
+			<array>
+				<integer>4041</integer>
+				<string>/Agate-Pearl-Street-Surf-Report/4041/</string>
+			</array>
+			<key>Salt Creek</key>
+			<array>
+				<integer>289</integer>
+				<string>/Salt-Creek-Surf-Report/289/</string>
+			</array>
+			<key>Strands Point</key>
+			<array>
+				<integer>4040</integer>
+				<string>/Strands-Point-Surf-Report/4040/</string>
+			</array>
+			<key>Laguna Beach (Rockpile)</key>
+			<array>
+				<integer>988</integer>
+				<string>/Laguna-Beach-Rockpile-Surf-Report/988/</string>
+			</array>
+			<key>Doheny State Beach</key>
+			<array>
+				<integer>2588</integer>
+				<string>/Doheny-State-Beach-Surf-Report/2588/</string>
+			</array>
+			<key>Morro Beach</key>
+			<array>
+				<integer>288</integer>
+				<string>/Morro-Beach-Surf-Report/288/</string>
+			</array>
+			<key>San Clemente Pier</key>
+			<array>
+				<integer>290</integer>
+				<string>/San-Clemente-Pier-Surf-Report/290/</string>
+			</array>
+			<key>Poche Beach</key>
+			<array>
+				<integer>2590</integer>
+				<string>/Poche-Beach-Surf-Report/2590/</string>
+			</array>
+			<key>T Street (Trafalgar Street)</key>
+			<array>
+				<integer>2570</integer>
+				<string>/T-Street-Trafalgar-Street-Surf-Report/2570/</string>
+			</array>
+			<key>Corona Del Mar Jetty</key>
+			<array>
+				<integer>2579</integer>
+				<string>/Corona-Del-Mar-Jetty-Surf-Report/2579/</string>
+			</array>
+			<key>Rockpile/Heisler Park</key>
+			<array>
+				<integer>2578</integer>
+				<string>/Rockpile-Heisler-Park-Surf-Report/2578/</string>
+			</array>
+		</dict>
+		<key>Trestles to Trails</key>
+		<dict>
+			<key>Trails</key>
+			<array>
+				<integer>2600</integer>
+				<string>/Trails-Surf-Report/2600/</string>
+			</array>
+			<key>Trestles</key>
+			<array>
+				<integer>291</integer>
+				<string>/Trestles-Surf-Report/291/</string>
+			</array>
+			<key>San Onofre</key>
+			<array>
+				<integer>4192</integer>
+				<string>/San-Onofre-Surf-Report/4192/</string>
+			</array>
+		</dict>
+		<key>East</key>
+		<dict>
+			<key>County Line/Yerba Buena Beach</key>
+			<array>
+				<integer>277</integer>
+				<string>/County-Line-Yerba-Buena-Beach-Surf-Report/277/</string>
+			</array>
+			<key>Staircase Beach</key>
+			<array>
+				<integer>2641</integer>
+				<string>/Staircase-Beach-Surf-Report/2641/</string>
+			</array>
+			<key>Ormond Beach</key>
+			<array>
+				<integer>2648</integer>
+				<string>/Ormond-Beach-Surf-Report/2648/</string>
+			</array>
+			<key>Silver Strand</key>
+			<array>
+				<integer>276</integer>
+				<string>/Silver-Strand-Surf-Report/276/</string>
+			</array>
+			<key>Port Hueneme Beach Park</key>
+			<array>
+				<integer>2647</integer>
+				<string>/Port-Hueneme-Beach-Park-Surf-Report/2647/</string>
+			</array>
+			<key>New Jetty/South Jetty</key>
+			<array>
+				<integer>2632</integer>
+				<string>/New-Jetty-South-Jetty-Surf-Report/2632/</string>
+			</array>
+		</dict>
+		<key>Marin County</key>
+		<dict>
+			<key>Marin County</key>
+			<array>
+				<integer>307</integer>
+				<string>/Marin-County-Surf-Report/307/</string>
+			</array>
+		</dict>
+		<key>Monterey County</key>
+		<dict>
+			<key>Carmel Beach</key>
+			<array>
+				<integer>666</integer>
+				<string>/Carmel-Beach-Surf-Report/666/</string>
+			</array>
+			<key>Moss Landing</key>
+			<array>
+				<integer>259</integer>
+				<string>/Moss-Landing-Surf-Report/259/</string>
+			</array>
+			<key>Ghost Trees</key>
+			<array>
+				<integer>825</integer>
+				<string>/Ghost-Trees-Surf-Report/825/</string>
+			</array>
+			<key>Andrew Molera State Park</key>
+			<array>
+				<integer>260</integer>
+				<string>/Andrew-Molera-State-Park-Surf-Report/260/</string>
+			</array>
+		</dict>
+		<key>Oceanside to Encinitas</key>
+		<dict>
+			<key>Swamis</key>
+			<array>
+				<integer>293</integer>
+				<string>/Swamis-Surf-Report/293/</string>
+			</array>
+			<key>Solana Beach</key>
+			<array>
+				<integer>294</integer>
+				<string>/Solana-Beach-Surf-Report/294/</string>
+			</array>
+			<key>Carlsbad</key>
+			<array>
+				<integer>292</integer>
+				<string>/Carlsbad-Surf-Report/292/</string>
+			</array>
+			<key>Ponto</key>
+			<array>
+				<integer>1149</integer>
+				<string>/Ponto-Surf-Report/1149/</string>
+			</array>
+			<key>Oceanside</key>
+			<array>
+				<integer>664</integer>
+				<string>/Oceanside-Surf-Report/664/</string>
+			</array>
+		</dict>
+		<key>Palos Verdes</key>
+		<dict>
+			<key>Lower Haggertys</key>
+			<array>
+				<integer>2605</integer>
+				<string>/Lower-Haggertys-Surf-Report/2605/</string>
+			</array>
+			<key>72nd Place</key>
+			<array>
+				<integer>2596</integer>
+				<string>/72nd-Place-Surf-Report/2596/</string>
+			</array>
+			<key>Lunada Bay</key>
+			<array>
+				<integer>283</integer>
+				<string>/Lunada-Bay-Surf-Report/283/</string>
+			</array>
+			<key>64th Place</key>
+			<array>
+				<integer>2597</integer>
+				<string>/64th-Place-Surf-Report/2597/</string>
+			</array>
+			<key>Haggertys</key>
+			<array>
+				<integer>282</integer>
+				<string>/Haggertys-Surf-Report/282/</string>
+			</array>
+			<key>Cabrillo Point</key>
+			<array>
+				<integer>284</integer>
+				<string>/Cabrillo-Point-Surf-Report/284/</string>
+			</array>
+		</dict>
+		<key>South</key>
+		<dict>
+			<key>Imperial Beach</key>
+			<array>
+				<integer>3745</integer>
+				<string>/Imperial-Beach-Surf-Report/3745/</string>
+			</array>
+			<key>Del Mar</key>
+			<array>
+				<integer>3707</integer>
+				<string>/Del-Mar-Surf-Report/3707/</string>
+			</array>
+			<key>Pacific Beach</key>
+			<array>
+				<integer>663</integer>
+				<string>/Pacific-Beach-Surf-Report/663/</string>
+			</array>
+			<key>San Diego</key>
+			<array>
+				<integer>297</integer>
+				<string>/San-Diego-Surf-Report/297/</string>
+			</array>
+		</dict>
+		<key>Humboldt County - North</key>
+		<dict>
+			<key>Moonstone beach</key>
+			<array>
+				<integer>301</integer>
+				<string>/Moonstone-beach-Surf-Report/301/</string>
+			</array>
+			<key>Patricks Point</key>
+			<array>
+				<integer>300</integer>
+				<string>/Patricks-Point-Surf-Report/300/</string>
+			</array>
+		</dict>
+		<key>Del Norte County</key>
+		<dict>
+			<key>South Beach</key>
+			<array>
+				<integer>298</integer>
+				<string>/South-Beach-Surf-Report/298/</string>
+			</array>
+			<key>Klamath River</key>
+			<array>
+				<integer>299</integer>
+				<string>/Klamath-River-Surf-Report/299/</string>
+			</array>
+		</dict>
+		<key>Humboldt County - South</key>
+		<dict>
+			<key>Eureka</key>
+			<array>
+				<integer>302</integer>
+				<string>/Eureka-Surf-Report/302/</string>
+			</array>
+		</dict>
+		<key>San Mateo County - South</key>
+		<dict>
+			<key>Princeton Jetty</key>
+			<array>
+				<integer>3679</integer>
+				<string>/Princeton-Jetty-Surf-Report/3679/</string>
+			</array>
+			<key>Mavericks (Half Moon Bay)</key>
+			<array>
+				<integer>162</integer>
+				<string>/Mavericks-Half-Moon-Bay-Surf-Report/162/</string>
+			</array>
+		</dict>
+		<key>Santa Cruz Town - West Side</key>
+		<dict>
+			<key>Steamer Lane</key>
+			<array>
+				<integer>163</integer>
+				<string>/Steamer-Lane-Surf-Report/163/</string>
+			</array>
+		</dict>
+		<key>Santa Barbara - East</key>
+		<dict>
+			<key>Leadbetter Beach</key>
+			<array>
+				<integer>270</integer>
+				<string>/Leadbetter-Beach-Surf-Report/270/</string>
+			</array>
+			<key>Hammonds Reef</key>
+			<array>
+				<integer>271</integer>
+				<string>/Hammonds-Reef-Surf-Report/271/</string>
+			</array>
+			<key>Campus Point</key>
+			<array>
+				<integer>269</integer>
+				<string>/Campus-Point-Surf-Report/269/</string>
+			</array>
+			<key>Haskels Beach</key>
+			<array>
+				<integer>1252</integer>
+				<string>/Haskels-Beach-Surf-Report/1252/</string>
+			</array>
+			<key>Sandspit</key>
+			<array>
+				<integer>2629</integer>
+				<string>/Sandspit-Surf-Report/2629/</string>
+			</array>
+			<key>Miramar</key>
+			<array>
+				<integer>2628</integer>
+				<string>/Miramar-Surf-Report/2628/</string>
+			</array>
+			<key>Tarpits/Carpinteria State Beach</key>
+			<array>
+				<integer>2701</integer>
+				<string>/Tarpits-Carpinteria-State-Beach-Surf-Report/2701/</string>
+			</array>
+		</dict>
+		<key>West</key>
+		<dict>
+			<key>La Conchita Beach</key>
+			<array>
+				<integer>2630</integer>
+				<string>/La-Conchita-Beach-Surf-Report/2630/</string>
+			</array>
+			<key>Pitas Point/Faria County Park</key>
+			<array>
+				<integer>274</integer>
+				<string>/Pitas-Point-Faria-County-Park-Surf-Report/274/</string>
+			</array>
+			<key>Little Rincon/Mussel Shoals</key>
+			<array>
+				<integer>2672</integer>
+				<string>/Little-Rincon-Mussel-Shoals-Surf-Report/2672/</string>
+			</array>
+			<key>Ventura Overhead/Emma Wood State Beach</key>
+			<array>
+				<integer>2646</integer>
+				<string>/Ventura-Overhead-Emma-Wood-State-Beach-Surf-Report/2646/</string>
+			</array>
+			<key>Faria Beach</key>
+			<array>
+				<integer>2645</integer>
+				<string>/Faria-Beach-Surf-Report/2645/</string>
+			</array>
+			<key>Solimar Reef and Beach</key>
+			<array>
+				<integer>2644</integer>
+				<string>/Solimar-Reef-and-Beach-Surf-Report/2644/</string>
+			</array>
+			<key>Hobson County Park</key>
+			<array>
+				<integer>273</integer>
+				<string>/Hobson-County-Park-Surf-Report/273/</string>
+			</array>
+			<key>Rincon Point</key>
+			<array>
+				<integer>272</integer>
+				<string>/Rincon-Point-Surf-Report/272/</string>
+			</array>
+			<key>California Street (C Street)</key>
+			<array>
+				<integer>275</integer>
+				<string>/California-Street-C-Street-Surf-Report/275/</string>
+			</array>
+		</dict>
+		<key>South Bay</key>
+		<dict>
+			<key>El Porto Beach</key>
+			<array>
+				<integer>2677</integer>
+				<string>/El-Porto-Beach-Surf-Report/2677/</string>
+			</array>
+			<key>Sunset Blvd</key>
+			<array>
+				<integer>3673</integer>
+				<string>/Sunset-Blvd-Surf-Report/3673/</string>
+			</array>
+			<key>Santa Monica Municipal Pier</key>
+			<array>
+				<integer>280</integer>
+				<string>/Santa-Monica-Municipal-Pier-Surf-Report/280/</string>
+			</array>
+			<key>Venice Breakwater and Venice Jetty</key>
+			<array>
+				<integer>2611</integer>
+				<string>/Venice-Breakwater-and-Venice-Jetty-Surf-Report/2611/</string>
+			</array>
+			<key>Hermosa City Beach/Hermosa Municipal Pier</key>
+			<array>
+				<integer>2607</integer>
+				<string>/Hermosa-City-Beach-Hermosa-Municipal-Pier-Surf-Report/2607/</string>
+			</array>
+			<key>Burn Out/Torrance Beach/RAT Beach</key>
+			<array>
+				<integer>2604</integer>
+				<string>/Burn-Out-Torrance-Beach-RAT-Beach-Surf-Report/2604/</string>
+			</array>
+			<key>Bay Street</key>
+			<array>
+				<integer>2613</integer>
+				<string>/Bay-Street-Surf-Report/2613/</string>
+			</array>
+			<key>Manhattan/Hermosa Beach</key>
+			<array>
+				<integer>281</integer>
+				<string>/Manhattan-Hermosa-Beach-Surf-Report/281/</string>
+			</array>
+		</dict>
+		<key>Sonoma County</key>
+		<dict>
+			<key>Salmon Creek</key>
+			<array>
+				<integer>306</integer>
+				<string>/Salmon-Creek-Surf-Report/306/</string>
+			</array>
+			<key>Secrets</key>
+			<array>
+				<integer>305</integer>
+				<string>/Secrets-Surf-Report/305/</string>
+			</array>
+		</dict>
+		<key>Mendocino County</key>
+		<dict>
+			<key>Point Arena</key>
+			<array>
+				<integer>304</integer>
+				<string>/Point-Arena-Surf-Report/304/</string>
+			</array>
+			<key>Virgin Creek</key>
+			<array>
+				<integer>303</integer>
+				<string>/Virgin-Creek-Surf-Report/303/</string>
+			</array>
+			<key>Shelter Cove</key>
+			<array>
+				<integer>4083</integer>
+				<string>/Shelter-Cove-Surf-Report/4083/</string>
+			</array>
+		</dict>
+		<key>Santa Barbara - North</key>
+		<dict>
+			<key>Jalama Beach County Park</key>
+			<array>
+				<integer>265</integer>
+				<string>/Jalama-Beach-County-Park-Surf-Report/265/</string>
+			</array>
+			<key>Surf Beach</key>
+			<array>
+				<integer>3702</integer>
+				<string>/Surf-Beach-Surf-Report/3702/</string>
+			</array>
+		</dict>
+		<key>Santa Cruz County - North</key>
+		<dict>
+			<key>Waddell Creek</key>
+			<array>
+				<integer>3742</integer>
+				<string>/Waddell-Creek-Surf-Report/3742/</string>
+			</array>
+			<key>Four Mile</key>
+			<array>
+				<integer>257</integer>
+				<string>/Four-Mile-Surf-Report/257/</string>
+			</array>
+			<key>Monterey Bay Offshore</key>
+			<array>
+				<integer>3734</integer>
+				<string>/Monterey-Bay-Offshore-Surf-Report/3734/</string>
+			</array>
+			<key>Davenport Landing</key>
+			<array>
+				<integer>256</integer>
+				<string>/Davenport-Landing-Surf-Report/256/</string>
+			</array>
+		</dict>
+		<key>Cardiff to Blacks</key>
+		<dict>
+			<key>Torrey Pines/Blacks Beach</key>
+			<array>
+				<integer>295</integer>
+				<string>/Torrey-Pines-Blacks-Beach-Surf-Report/295/</string>
+			</array>
+		</dict>
+		<key>Channel Islands</key>
+		<dict>
+			<key>Wave Buoy 46047</key>
+			<array>
+				<integer>3704</integer>
+				<string>/Wave-Buoy-46047-Surf-Report/3704/</string>
+			</array>
+			<key>Skunk Point</key>
+			<array>
+				<integer>1251</integer>
+				<string>/Skunk-Point-Surf-Report/1251/</string>
+			</array>
+		</dict>
+		<key>Santa Barbara - West</key>
+		<dict>
+			<key>The Ranch - Cojo Reef</key>
+			<array>
+				<integer>266</integer>
+				<string>/The-Ranch-Cojo-Reef-Surf-Report/266/</string>
+			</array>
+			<key>Tajiguas</key>
+			<array>
+				<integer>2703</integer>
+				<string>/Tajiguas-Surf-Report/2703/</string>
+			</array>
+			<key>Beavers/Hazards</key>
+			<array>
+				<integer>267</integer>
+				<string>/Beavers-Hazards-Surf-Report/267/</string>
+			</array>
+			<key>Refugio State Beach</key>
+			<array>
+				<integer>2625</integer>
+				<string>/Refugio-State-Beach-Surf-Report/2625/</string>
+			</array>
+			<key>Sands Beach</key>
+			<array>
+				<integer>268</integer>
+				<string>/Sands-Beach-Surf-Report/268/</string>
+			</array>
+		</dict>
+		<key>La Jolla</key>
+		<dict>
+			<key>Scripps Pier/La Jolla</key>
+			<array>
+				<integer>296</integer>
+				<string>/Scripps-Pier-La-Jolla-Surf-Report/296/</string>
+			</array>
+		</dict>
+		<key>San Luis Obispo - North</key>
+		<dict>
+			<key>Cambria</key>
+			<array>
+				<integer>261</integer>
+				<string>/Cambria-Surf-Report/261/</string>
+			</array>
+			<key>Cayucos</key>
+			<array>
+				<integer>866</integer>
+				<string>/Cayucos-Surf-Report/866/</string>
+			</array>
+			<key>Morro Bay</key>
+			<array>
+				<integer>262</integer>
+				<string>/Morro-Bay-Surf-Report/262/</string>
+			</array>
+		</dict>
+		<key>San Francisco County</key>
+		<dict>
+			<key>Linda Mar / Pacifica</key>
+			<array>
+				<integer>819</integer>
+				<string>/Linda-Mar-Pacifica-Surf-Report/819/</string>
+			</array>
+			<key>Ocean Beach</key>
+			<array>
+				<integer>255</integer>
+				<string>/Ocean-Beach-Surf-Report/255/</string>
+			</array>
+		</dict>
+		<key>San Luis Obispo - South</key>
+		<dict>
+			<key>Oceano/Pismo</key>
+			<array>
+				<integer>264</integer>
+				<string>/Oceano-Pismo-Surf-Report/264/</string>
+			</array>
+			<key>Saint Annes</key>
+			<array>
+				<integer>263</integer>
+				<string>/Saint-Annes-Surf-Report/263/</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Northwest</key>
+	<dict>
+		<key>Central South</key>
+		<dict>
+			<key>Florence</key>
+			<array>
+				<integer>696</integer>
+				<string>/Florence-Surf-Report/696/</string>
+			</array>
+			<key>Newport</key>
+			<array>
+				<integer>318</integer>
+				<string>/Newport-Surf-Report/318/</string>
+			</array>
+			<key>Winchester Bay</key>
+			<array>
+				<integer>319</integer>
+				<string>/Winchester-Bay-Surf-Report/319/</string>
+			</array>
+		</dict>
+		<key>Central North</key>
+		<dict>
+			<key>Otter Rock</key>
+			<array>
+				<integer>317</integer>
+				<string>/Otter-Rock-Surf-Report/317/</string>
+			</array>
+			<key>Lincoln City</key>
+			<array>
+				<integer>316</integer>
+				<string>/Lincoln-City-Surf-Report/316/</string>
+			</array>
+			<key>Cape Lookout</key>
+			<array>
+				<integer>315</integer>
+				<string>/Cape-Lookout-Surf-Report/315/</string>
+			</array>
+			<key>Cape Kiwanda</key>
+			<array>
+				<integer>560</integer>
+				<string>/Cape-Kiwanda-Surf-Report/560/</string>
+			</array>
+		</dict>
+		<key>South</key>
+		<dict>
+			<key>Brookings</key>
+			<array>
+				<integer>322</integer>
+				<string>/Brookings-Surf-Report/322/</string>
+			</array>
+			<key>Coos Bay</key>
+			<array>
+				<integer>320</integer>
+				<string>/Coos-Bay-Surf-Report/320/</string>
+			</array>
+			<key>Gold Beach</key>
+			<array>
+				<integer>321</integer>
+				<string>/Gold-Beach-Surf-Report/321/</string>
+			</array>
+		</dict>
+		<key>North</key>
+		<dict>
+			<key>Cannon Beach</key>
+			<array>
+				<integer>313</integer>
+				<string>/Cannon-Beach-Surf-Report/313/</string>
+			</array>
+			<key>Smugglers Cove</key>
+			<array>
+				<integer>314</integer>
+				<string>/Smugglers-Cove-Surf-Report/314/</string>
+			</array>
+		</dict>
+		<key>Washington</key>
+		<dict>
+			<key>Cape Flattery</key>
+			<array>
+				<integer>710</integer>
+				<string>/Cape-Flattery-Surf-Report/710/</string>
+			</array>
+			<key>Long Beach</key>
+			<array>
+				<integer>311</integer>
+				<string>/Long-Beach-Surf-Report/311/</string>
+			</array>
+			<key>Ocean Shores</key>
+			<array>
+				<integer>3813</integer>
+				<string>/Ocean-Shores-Surf-Report/3813/</string>
+			</array>
+			<key>La Push</key>
+			<array>
+				<integer>308</integer>
+				<string>/La-Push-Surf-Report/308/</string>
+			</array>
+			<key>Westport</key>
+			<array>
+				<integer>310</integer>
+				<string>/Westport-Surf-Report/310/</string>
+			</array>
+		</dict>
+		<key>Vancouver Island</key>
+		<dict>
+			<key>Vancouver Island South (Jordan River)</key>
+			<array>
+				<integer>323</integer>
+				<string>/Vancouver-Island-South-Jordan-River-Surf-Report/323/</string>
+			</array>
+			<key>Tofino (Cox Bay)</key>
+			<array>
+				<integer>1122</integer>
+				<string>/Tofino-Cox-Bay-Surf-Report/1122/</string>
+			</array>
+			<key>Tofino (Chesterman Beach)</key>
+			<array>
+				<integer>1123</integer>
+				<string>/Tofino-Chesterman-Beach-Surf-Report/1123/</string>
+			</array>
+			<key>Vancouver Island North (Long Beach)</key>
+			<array>
+				<integer>324</integer>
+				<string>/Vancouver-Island-North-Long-Beach-Surf-Report/324/</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

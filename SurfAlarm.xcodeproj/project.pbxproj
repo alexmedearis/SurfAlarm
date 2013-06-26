@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		003CD3DB177BA7E90024DC83 /* RegionPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CD3D9177BA7E90024DC83 /* RegionPickerViewController.m */; };
+		003CD3DE177BAC1D0024DC83 /* Locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 003CD3DD177BAC1D0024DC83 /* Locations.plist */; };
 		00B167DD16B0E3FB005ED9CC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167DC16B0E3FB005ED9CC /* Parse.framework */; };
 		00B167DF16B0E458005ED9CC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167DE16B0E458005ED9CC /* AudioToolbox.framework */; };
 		00B167E116B0E45F005ED9CC /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167E016B0E45F005ED9CC /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -42,7 +43,6 @@
 		32252C421266B62900BEC5A1 /* CountyPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32252C411266B62900BEC5A1 /* CountyPickerViewController.m */; };
 		32252CFE1267633D00BEC5A1 /* alarm_clock_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 32252CFD1267633D00BEC5A1 /* alarm_clock_icon.png */; };
 		32252D3A126B6B6A00BEC5A1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 32252D39126B6B6A00BEC5A1 /* MBProgressHUD.m */; };
-		32252DBF126BCD0200BEC5A1 /* Locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32252DBE126BCD0200BEC5A1 /* Locations.plist */; };
 		322E0E2312638A6F0081D1BD /* TimePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 322E0E2212638A6F0081D1BD /* TimePicker.xib */; };
 		3238E67512BFBF6B00373FE7 /* handle_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238E67312BFBF6B00373FE7 /* handle_highlight.png */; };
 		3238E67612BFBF6B00373FE7 /* handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238E67412BFBF6B00373FE7 /* handle.png */; };
@@ -70,6 +70,7 @@
 /* Begin PBXFileReference section */
 		003CD3D8177BA7E90024DC83 /* RegionPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionPickerViewController.h; sourceTree = "<group>"; };
 		003CD3D9177BA7E90024DC83 /* RegionPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionPickerViewController.m; sourceTree = "<group>"; };
+		003CD3DD177BAC1D0024DC83 /* Locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Locations.plist; path = Resources/Locations.plist; sourceTree = "<group>"; };
 		00B167DC16B0E3FB005ED9CC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		00B167DE16B0E458005ED9CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		00B167E016B0E45F005ED9CC /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
@@ -115,7 +116,6 @@
 		32252CFD1267633D00BEC5A1 /* alarm_clock_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alarm_clock_icon.png; path = Resources/alarm_clock_icon.png; sourceTree = "<group>"; };
 		32252D38126B6B6A00BEC5A1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = Classes/MBProgressHUD.h; sourceTree = "<group>"; };
 		32252D39126B6B6A00BEC5A1 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = Classes/MBProgressHUD.m; sourceTree = "<group>"; };
-		32252DBE126BCD0200BEC5A1 /* Locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Locations.plist; sourceTree = "<group>"; };
 		322E0E2212638A6F0081D1BD /* TimePicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TimePicker.xib; path = Resources/TimePicker.xib; sourceTree = "<group>"; };
 		3238E67312BFBF6B00373FE7 /* handle_highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = handle_highlight.png; path = Resources/handle_highlight.png; sourceTree = "<group>"; };
 		3238E67412BFBF6B00373FE7 /* handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = handle.png; path = Resources/handle.png; sourceTree = "<group>"; };
@@ -280,7 +280,7 @@
 				323E2A1512637337009E6253 /* MainScreen.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* SurfAlarm-Info.plist */,
-				32252DBE126BCD0200BEC5A1 /* Locations.plist */,
+				003CD3DD177BAC1D0024DC83 /* Locations.plist */,
 				323E6BD41270996A0072C1C7 /* WebView.xib */,
 			);
 			name = "Other Resources";
@@ -358,7 +358,6 @@
 				325311511263864600576534 /* disclosure.png in Resources */,
 				322E0E2312638A6F0081D1BD /* TimePicker.xib in Resources */,
 				32252CFE1267633D00BEC5A1 /* alarm_clock_icon.png in Resources */,
-				32252DBF126BCD0200BEC5A1 /* Locations.plist in Resources */,
 				323E6BD51270996A0072C1C7 /* WebView.xib in Resources */,
 				323D1688128A5FA600995D9E /* surf_alarm.caf in Resources */,
 				323D16AE128A645200995D9E /* Default@2x.png in Resources */,
@@ -374,6 +373,7 @@
 				00D694AB16B77CB700D161B5 /* Icon-Small-50.png in Resources */,
 				00D694AC16B77CB700D161B5 /* Icon-Small.png in Resources */,
 				00D1BC49177A6D6E00E6FD37 /* pickerOverlay.png in Resources */,
+				003CD3DE177BAC1D0024DC83 /* Locations.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

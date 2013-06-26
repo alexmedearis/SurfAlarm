@@ -16,10 +16,10 @@
 - (id) initWithDefaultValues {
 	if (self = [super init]) {
 		self.time = nil;
-		self.name = @"";
-		self.url = @"";
+		self.name = @"Steamer Lane";
+		self.url = @"/Steamer-Lane-Surf-Report/163/";
 		self.quality = 0;
-		self.locationId = 3;
+		self.locationId = 163;
         self.waveHeight = 1;
 		self.isDirty = YES;
     }
