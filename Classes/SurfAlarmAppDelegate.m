@@ -23,7 +23,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [Parse setApplicationId:@"lX1zvfHzIrtf0jUcu3cBNC6JKt5YMUZmJVSNpM8z"
-                  clientKey:@"zm0erZIOcrsMZDEtBzs4oSpqD7tjEgCq2YWOHDN6"];
+                  clientKey:@"TcsVkz6XjJP6UCCzJnLzWR5NaPNBddmvrrJ1GA4c"];
     
     NSLog(@"Registering Remote Notications");
 	[[UIApplication sharedApplication] registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
