@@ -15,8 +15,8 @@
 }
 
 @property (strong) NSDate *  time;
-@property (strong) NSString *  location;
-@property (strong) NSString *  county;
+@property (strong) NSString *  name;
+@property (strong) NSString *  url;
 @property (assign, nonatomic) NSInteger quality;
 @property (assign, nonatomic) NSInteger locationId;
 @property (assign, nonatomic) NSInteger waveHeight;

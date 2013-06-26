@@ -12,19 +12,12 @@
 
 @implementation Criteria
 
-@synthesize time = _time;
-@synthesize location = _location;
-@synthesize county = _county;
-@synthesize quality = _quality;
-@synthesize locationId = _locationId;
-@synthesize isDirty = _isDirty;
-@synthesize waveHeight = _waveHeight;
 
 - (id) initWithDefaultValues {
 	if (self = [super init]) {
 		self.time = nil;
-		self.location = @"Cowells";
-		self.county = @"Santa Cruz";
+		self.name = @"";
+		self.url = @"";
 		self.quality = 0;
 		self.locationId = 3;
         self.waveHeight = 1;
@@ -39,8 +32,8 @@
     } else {
         user[@"time"] = [NSNull null];
     }
-    user[@"location"] = self.location;
-    user[@"county"] = self.county;
+    user[@"name"] = self.name;
+    user[@"url"] = self.url;
     user[@"quality"] = @(self.quality);
     user[@"locationId"] = @(self.locationId);
     user[@"waveHeight"] = @(self.waveHeight);
@@ -52,8 +45,8 @@
     } else {
         self.time = user[@"time"];
     }
-    self.location = user[@"location"];
-    self.county = user[@"county"];
+    self.name = user[@"name"];
+    self.url = user[@"url"];
     self.quality = [user[@"quality"] integerValue];
     self.locationId = [user[@"locationId"] integerValue];
     self.waveHeight = [user[@"waveHeight"] integerValue];

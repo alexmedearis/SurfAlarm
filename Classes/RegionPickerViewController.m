@@ -1,29 +1,31 @@
 //
-//  CountyPickerViewController.m
+//  RegionPickerViewController.m
 //  SurfAlarm
 //
-//  Created by Alexander Medearis on 10/13/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by Andy Dufresne on 6/26/13.
+//
 //
 
+#import "RegionPickerViewController.h"
 #import "CountyPickerViewController.h"
-#import "LocationPickerViewController.h"
 
+@interface RegionPickerViewController ()
 
-@implementation CountyPickerViewController
+@end
 
+@implementation RegionPickerViewController
 
 #pragma mark -
 #pragma mark Initialization
 
 
-- (id)initWithStyle:(UITableViewStyle)style criteria:(Criteria *)_criteria counties:(NSDictionary *)_counties region:(NSString *)_region {
+- (id)initWithStyle:(UITableViewStyle)style criteria:(Criteria *)_criteria{
     // Override initWithStyle: if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
     if ((self = [super initWithStyle:style])) {
-		data = _counties;
+		NSString * plistPath = [[NSBundle mainBundle] pathForResource:@"Locations" ofType:@"plist"];
+		data = [NSDictionary dictionaryWithContentsOfFile:plistPath];
 		labels = [data allKeys];
 		criteria = _criteria;
-        self.title = _region;
     }
     return self;
 }
@@ -44,7 +46,7 @@
 	[label setText:@"County"];
 	[label setTextAlignment:UITextAlignmentCenter];
 	self.navigationItem.titleView = label;
-	self.view.backgroundColor = [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];	
+	self.view.backgroundColor = [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];
 }
 
 
@@ -93,13 +95,14 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	NSString * key = labels[[indexPath row]];
-    NSDictionary * spots = data[key];
-	LocationPickerViewController * locationController = [[LocationPickerViewController alloc] initWithStyle:UITableViewStylePlain 
-																								   criteria:criteria
-																									  spots:spots
-																									 county:key]; // Other option is UITableViewStyleGrouped
-    
-	[self.navigationController pushViewController:locationController animated:YES];
+    NSDictionary * counties = data[key];
+	CountyPickerViewController * countyController = [[CountyPickerViewController alloc] initWithStyle:UITableViewStylePlain
+                                                                                             criteria:criteria
+                                                                                              counties:counties
+                                                                                               region:key];
+                                                     
+                                                        
+	[self.navigationController pushViewController:countyController animated:YES];
 }
 
 
@@ -119,7 +122,4 @@
 }
 
 
-
-
 @end
-

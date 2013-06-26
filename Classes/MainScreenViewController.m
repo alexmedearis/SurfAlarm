@@ -9,7 +9,7 @@
 #import <Parse/Parse.h>
 #import "MainScreenViewController.h"
 #import "TimePickerViewController.h"
-#import "CountyPickerViewController.h"
+#import "RegionPickerViewController.h"
 #import "UIColor+FlatUI.h"
 #import "UINavigationBar+FlatUI.h"	
 
@@ -91,8 +91,8 @@
 	}
     
     // Place
-    if(self.criteria.county != nil){
-        [placeButton setTitle:[NSString stringWithFormat:@"%@ - %@", self.criteria.county, self.criteria.location] forState:UIControlStateNormal];
+    if(self.criteria.name != nil){
+        [placeButton setTitle:[NSString stringWithFormat:@"%@", self.criteria.name] forState:UIControlStateNormal];
     } else{
         [placeButton setTitle:@"Not Set" forState:UIControlStateNormal];
     }
@@ -149,9 +149,9 @@
 
 - (IBAction) locationClicked: (id)sender
 {
-	CountyPickerViewController * countyController = [[CountyPickerViewController alloc] initWithStyle:UITableViewStylePlain criteria:self.criteria]; // Other option is UITableViewStyleGrouped
+	RegionPickerViewController * regionController = [[RegionPickerViewController alloc] initWithStyle:UITableViewStylePlain criteria:self.criteria]; // Other option is UITableViewStyleGrouped
     
-	[self.navigationController pushViewController:countyController animated:YES];
+	[self.navigationController pushViewController:regionController animated:YES];
 }
 
 - (IBAction) criteriaChanged: (id)sender{
@@ -211,7 +211,7 @@
 		NSDateFormatter * time = [[NSDateFormatter alloc] init];
 		[time setDateFormat:@"h:mm a"];
 		NSString * strdate = [[NSString alloc] initWithFormat:@"%@",[time stringFromDate:self.criteria.time]];
-		criteriaString = [NSString stringWithFormat:@"%@ - %@ - %@ - %@ - %dft+", strdate, self.criteria.location, self.criteria.county, [self stringFromQuality:self.criteria.quality], self.criteria.waveHeight];
+		criteriaString = [NSString stringWithFormat:@"%@ - %@ - %@ - %dft+", strdate, self.criteria.name, [self stringFromQuality:self.criteria.quality], self.criteria.waveHeight];
 	}
     [alarmIndicatorLabel setText:criteriaString];
 }

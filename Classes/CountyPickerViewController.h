@@ -15,7 +15,7 @@
 	Criteria * criteria;
 }
 
-- (id)initWithStyle:(UITableViewStyle)style criteria:(Criteria *)_criteria;
+- (id)initWithStyle:(UITableViewStyle)style criteria:(Criteria *)_criteria counties:(NSDictionary *)_counties region:(NSString *)_region;
 
 
 @end

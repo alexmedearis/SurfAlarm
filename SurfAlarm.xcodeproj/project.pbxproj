@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003CD3DB177BA7E90024DC83 /* RegionPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CD3D9177BA7E90024DC83 /* RegionPickerViewController.m */; };
 		00B167DD16B0E3FB005ED9CC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167DC16B0E3FB005ED9CC /* Parse.framework */; };
 		00B167DF16B0E458005ED9CC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167DE16B0E458005ED9CC /* AudioToolbox.framework */; };
 		00B167E116B0E45F005ED9CC /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167E016B0E45F005ED9CC /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -67,6 +68,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		003CD3D8177BA7E90024DC83 /* RegionPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionPickerViewController.h; sourceTree = "<group>"; };
+		003CD3D9177BA7E90024DC83 /* RegionPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionPickerViewController.m; sourceTree = "<group>"; };
 		00B167DC16B0E3FB005ED9CC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		00B167DE16B0E458005ED9CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		00B167E016B0E45F005ED9CC /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
@@ -176,6 +179,8 @@
 			children = (
 				32252C401266B62900BEC5A1 /* CountyPickerViewController.h */,
 				32252C411266B62900BEC5A1 /* CountyPickerViewController.m */,
+				003CD3D8177BA7E90024DC83 /* RegionPickerViewController.h */,
+				003CD3D9177BA7E90024DC83 /* RegionPickerViewController.m */,
 				1D3623240D0F684500981E51 /* SurfAlarmAppDelegate.h */,
 				1D3623250D0F684500981E51 /* SurfAlarmAppDelegate.m */,
 				323E2A1C1263736E009E6253 /* MainScreenViewController.h */,
@@ -394,6 +399,7 @@
 				00BC8E101766332900BD81CF /* FUISegmentedControl.m in Sources */,
 				00BC8E131766333900BD81CF /* UISlider+FlatUI.m in Sources */,
 				00BC8E16176633FB00BD81CF /* UINavigationBar+FlatUI.m in Sources */,
+				003CD3DB177BA7E90024DC83 /* RegionPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

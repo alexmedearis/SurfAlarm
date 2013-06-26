@@ -163,9 +163,10 @@ enum {
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString * key = labels[[indexPath row]];
-	criteria.location = key;
-	criteria.locationId = [spots[key] integerValue];
-	criteria.county = county;
+	criteria.name = key;
+    NSArray * spotData = spots[key];
+	criteria.locationId = [spotData[0] integerValue];
+	criteria.url = spotData[1];
 	criteria.isDirty = YES;
 	[self.navigationController popToRootViewControllerAnimated:YES];
 }
