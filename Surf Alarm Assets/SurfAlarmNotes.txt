@@ -1,7 +1,0 @@
-Surf Alarm will send you a push notification when the surf is going off at your favorite beach.  Just pick a spot, set a time and threshold, and you're good to go.  Surf Alarm will let you sleep in if things aren't looking so hot and will alert you when it's worth it to get out there early.
-
-NOTES:
-
-- ONLY WORKS IN CALIFORNIA (50+ spots along the California coast line)
-
-- You MUST have a network connection in order to receive push alerts. 
