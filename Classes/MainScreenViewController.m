@@ -3,7 +3,7 @@
 //  SurfAlarm
 //
 //  Created by Alexander Medearis on 10/11/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Alexander Medearis. All rights reserved.
 //
 
 #import <Parse/Parse.h>
@@ -53,14 +53,14 @@
     HUD.labelText = @"Loading";
     self.HUD = HUD;
     
-    [waveHeightSlider configureFlatSliderWithTrackColor:[UIColor fadedColor]
+    [self.waveHeightSlider configureFlatSliderWithTrackColor:[UIColor fadedColor]
                                   progressColor:[UIColor turquoiseColor]
                                      thumbColor:[UIColor turquoiseShadowColor]];
     
     [self.navigationController.navigationBar configureFlatNavigationBarWithColor:[UIColor turquoiseColor]];
     
-    cancelButton.buttonColor = [UIColor cancelRedColor];
-    cancelButton.shadowColor = [UIColor redShadowColor];
+    self.cancelButton.buttonColor = [UIColor cancelRedColor];
+    self.cancelButton.shadowColor = [UIColor redShadowColor];
     
     [self loadUser];
 }
@@ -85,44 +85,36 @@
 		NSDateFormatter * time = [[NSDateFormatter alloc] init];
 		[time setDateFormat:@"h:mm a"];
 		NSString * strdate = [[NSString alloc] initWithFormat:@"%@",[time stringFromDate:self.criteria.time]];
-		[timeButton setTitle:strdate forState:UIControlStateNormal];
+		[self.timeButton setTitle:strdate forState:UIControlStateNormal];
 	} else {
-		[timeButton setTitle:@"Not Set" forState:UIControlStateNormal];
+		[self.timeButton setTitle:@"Not Set" forState:UIControlStateNormal];
 	}
     
     // Place
     if(self.criteria.name != nil){
-        [placeButton setTitle:[NSString stringWithFormat:@"%@", self.criteria.name] forState:UIControlStateNormal];
+        [self.placeButton setTitle:[NSString stringWithFormat:@"%@", self.criteria.name] forState:UIControlStateNormal];
     } else{
-        [placeButton setTitle:@"Not Set" forState:UIControlStateNormal];
+        [self.placeButton setTitle:@"Not Set" forState:UIControlStateNormal];
     }
 	
     // Conditions
-    if([conditionsSelector selectedSegmentIndex] != self.criteria.quality) {
-        [conditionsSelector setSelectedSegmentIndex:self.criteria.quality];        
+    if([self.conditionsSelector selectedSegmentIndex] != self.criteria.quality) {
+        [self.conditionsSelector setSelectedSegmentIndex:self.criteria.quality];        
     }
     
     // Wave Height
-    if(waveHeightSlider.value != self.criteria.waveHeight) {
-        waveHeightSlider.value = self.criteria.waveHeight;
+    if(self.waveHeightSlider.value != self.criteria.waveHeight) {
+        self.waveHeightSlider.value = self.criteria.waveHeight;
     }
-    waveFtLabel.text = [NSString stringWithFormat:@"%d ft.+", self.criteria.waveHeight];
+    self.waveFtLabel.text = [NSString stringWithFormat:@"%d ft.+", self.criteria.waveHeight];
 
 	// Dirty
 	if(self.criteria.isDirty){
-		[dirtyIndicatorLabel setHidden:NO];
+		[self.dirtyIndicatorLabel setHidden:NO];
 	} else {
-		[dirtyIndicatorLabel setHidden:YES];		
+		[self.dirtyIndicatorLabel setHidden:YES];		
 	}
 }
- 
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
 
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
@@ -130,14 +122,6 @@
     
     // Release any cached data, images, etc that aren't in use.
 }
-
-- (void)viewDidUnload {
-    waveHeightSlider = nil;
-    waveFtLabel = nil;
-    cancelButton = nil;
-    [super viewDidUnload];
-}
-
 
 - (IBAction) timeClicked: (id)sender
 {
@@ -155,7 +139,7 @@
 }
 
 - (IBAction) criteriaChanged: (id)sender{
-	int index = [conditionsSelector selectedSegmentIndex];
+	int index = [self.conditionsSelector selectedSegmentIndex];
 	if(index != self.criteria.quality) {
 		self.criteria.quality = index;
 		self.criteria.isDirty = YES;
@@ -164,9 +148,9 @@
 }
 
 - (IBAction)waveHeightChanged:(id)sender {
-    int waveHeight = (int) waveHeightSlider.value;
+    int waveHeight = (int) self.waveHeightSlider.value;
     if(waveHeight != self.criteria.waveHeight) {
-        self.criteria.waveHeight = (int) waveHeightSlider.value;
+        self.criteria.waveHeight = (int) self.waveHeightSlider.value;
 		self.criteria.isDirty = YES;
 	}
     [self updateUI];
@@ -213,7 +197,7 @@
 		NSString * strdate = [[NSString alloc] initWithFormat:@"%@",[time stringFromDate:self.criteria.time]];
 		criteriaString = [NSString stringWithFormat:@"%@ - %@ - %@ - %dft+", strdate, self.criteria.name, [self stringFromQuality:self.criteria.quality], self.criteria.waveHeight];
 	}
-    [alarmIndicatorLabel setText:criteriaString];
+    [self.alarmIndicatorLabel setText:criteriaString];
 }
 
 - (NSString *) stringFromQuality: (int)quality

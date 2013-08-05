@@ -3,7 +3,7 @@
 //  SurfAlarm
 //
 //  Created by Alexander Medearis on 10/13/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Alexander Medearis. All rights reserved.
 //
 
 #import "CountyPickerViewController.h"
@@ -17,13 +17,11 @@
 #pragma mark Initialization
 
 
-- (id)initWithStyle:(UITableViewStyle)style criteria:(Criteria *)_criteria counties:(NSDictionary *)_counties region:(NSString *)_region {
-    // Override initWithStyle: if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
+- (id)initWithStyle:(UITableViewStyle)style criteria:(Criteria *)criteria counties:(NSDictionary *)counties region:(NSString *)region {
     if ((self = [super initWithStyle:style])) {
-		data = _counties;
-		labels = [data allKeys];
-		criteria = _criteria;
-        self.title = _region;
+		self.data = counties;
+		self.labels = [counties allKeys];
+		self.criteria = criteria;
     }
     return self;
 }
@@ -41,10 +39,10 @@
 	[label setFont:[UIFont fontWithName:@"Marker Felt" size:20.0]];
 	[label setBackgroundColor:[UIColor clearColor]];
 	[label setTextColor:[UIColor whiteColor]];
-	[label setText:@"County"];
 	[label setTextAlignment:UITextAlignmentCenter];
 	self.navigationItem.titleView = label;
-	self.view.backgroundColor = [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];	
+	self.view.backgroundColor = [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];
+    self.title = @"County";
 }
 
 
@@ -61,9 +59,8 @@
     // Return the number of rows in the section.
     if(section == 0)
 	{
-		return [labels count];
-	}
-	else
+		return [self.labels count];
+	} else
 	{
 		return 0;
 	}
@@ -81,7 +78,7 @@
     }
     
     // Configure the cell...
-    [[cell textLabel] setText:labels[[indexPath row]]];
+    [[cell textLabel] setText:self.labels[[indexPath row]]];
 	[[cell textLabel] setFont:[UIFont fontWithName:@"Marker Felt" size:20.0]];
 	[cell setBackgroundColor:[UIColor grayColor]];
 	[cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
@@ -92,13 +89,12 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	NSString * key = labels[[indexPath row]];
-    NSDictionary * spots = data[key];
+	NSString * key = self.labels[[indexPath row]];
+    NSDictionary * spots = self.data[key];
 	LocationPickerViewController * locationController = [[LocationPickerViewController alloc] initWithStyle:UITableViewStylePlain 
-																								   criteria:criteria
+																								   criteria:self.criteria
 																									  spots:spots
-																									 county:key]; // Other option is UITableViewStyleGrouped
-    
+																									 county:key];
 	[self.navigationController pushViewController:locationController animated:YES];
 }
 
@@ -109,17 +105,7 @@
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
-    
-    // Relinquish ownership any cached data, images, etc that aren't in use.
 }
-
-- (void)viewDidUnload {
-    // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
-    // For example: self.myOutlet = nil;
-}
-
-
-
 
 @end
 

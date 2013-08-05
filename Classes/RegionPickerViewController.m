@@ -19,13 +19,13 @@
 #pragma mark Initialization
 
 
-- (id)initWithStyle:(UITableViewStyle)style criteria:(Criteria *)_criteria{
+- (id)initWithStyle:(UITableViewStyle)style criteria:(Criteria *)criteria{
     // Override initWithStyle: if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
     if ((self = [super initWithStyle:style])) {
 		NSString * plistPath = [[NSBundle mainBundle] pathForResource:@"Locations" ofType:@"plist"];
-		data = [NSDictionary dictionaryWithContentsOfFile:plistPath];
-		labels = [data allKeys];
-		criteria = _criteria;
+		self.data = [NSDictionary dictionaryWithContentsOfFile:plistPath];
+		self.labels = [self.data allKeys];
+		self.criteria = criteria;
     }
     return self;
 }
@@ -43,7 +43,7 @@
 	[label setFont:[UIFont fontWithName:@"Marker Felt" size:20.0]];
 	[label setBackgroundColor:[UIColor clearColor]];
 	[label setTextColor:[UIColor whiteColor]];
-	[label setText:@"County"];
+	[label setText:@"Region"];
 	[label setTextAlignment:UITextAlignmentCenter];
 	self.navigationItem.titleView = label;
 	self.view.backgroundColor = [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];
@@ -63,7 +63,7 @@
     // Return the number of rows in the section.
     if(section == 0)
 	{
-		return [labels count];
+		return [self.labels count];
 	}
 	else
 	{
@@ -83,7 +83,7 @@
     }
     
     // Configure the cell...
-    [[cell textLabel] setText:labels[[indexPath row]]];
+    [[cell textLabel] setText:self.labels[[indexPath row]]];
 	[[cell textLabel] setFont:[UIFont fontWithName:@"Marker Felt" size:20.0]];
 	[cell setBackgroundColor:[UIColor grayColor]];
 	[cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
@@ -94,10 +94,10 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	NSString * key = labels[[indexPath row]];
-    NSDictionary * counties = data[key];
+	NSString * key = self.labels[[indexPath row]];
+    NSDictionary * counties = self.data[key];
 	CountyPickerViewController * countyController = [[CountyPickerViewController alloc] initWithStyle:UITableViewStylePlain
-                                                                                             criteria:criteria
+                                                                                             criteria:self.criteria
                                                                                               counties:counties
                                                                                                region:key];
                                                      
@@ -110,16 +110,9 @@
 #pragma mark Memory management
 
 - (void)didReceiveMemoryWarning {
-    // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
-    
-    // Relinquish ownership any cached data, images, etc that aren't in use.
 }
 
-- (void)viewDidUnload {
-    // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
-    // For example: self.myOutlet = nil;
-}
 
 
 @end

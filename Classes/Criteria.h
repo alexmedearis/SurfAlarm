@@ -3,7 +3,7 @@
 //  SurfAlarm
 //
 //  Created by Alexander Medearis on 10/11/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Alexander Medearis. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

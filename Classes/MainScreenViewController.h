@@ -3,7 +3,7 @@
 //  SurfAlarm
 //
 //  Created by Alexander Medearis on 10/11/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Alexander Medearis. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -15,20 +15,23 @@
 
 
 @interface MainScreenViewController : UIViewController <MBProgressHUDDelegate>{
-	IBOutlet UIButton * timeButton;
-	IBOutlet UIButton * placeButton;
-	IBOutlet UISegmentedControl * conditionsSelector;
-	IBOutlet UIButton * saveButton;
-	IBOutlet UILabel * alarmIndicatorLabel;
-	IBOutlet UILabel * dirtyIndicatorLabel;
-    IBOutlet UISlider *waveHeightSlider;
-    IBOutlet UILabel *waveFtLabel;
-    IBOutlet FUIButton *cancelButton;
-	
-    //two labels to show the currently selected values
-	UILabel *leftLabel;
-	UILabel *rightLabel;
+
 }
+
+@property (weak) IBOutlet UIButton * timeButton;
+@property (weak) IBOutlet UIButton * placeButton;
+@property (weak) IBOutlet UISegmentedControl * conditionsSelector;
+@property (weak) IBOutlet UIButton * saveButton;
+@property (weak) IBOutlet UILabel * alarmIndicatorLabel;
+@property (weak) IBOutlet UILabel * dirtyIndicatorLabel;
+@property (weak) IBOutlet UISlider *waveHeightSlider;
+@property (weak) IBOutlet UILabel *waveFtLabel;
+@property (weak) IBOutlet FUIButton *cancelButton;
+
+@property (strong) 	Criteria *criteria;
+@property (strong) 	MBProgressHUD *HUD;
+@property (strong) PFUser * user;
+
 
 - (IBAction) timeClicked: (id)sender;
 - (IBAction) locationClicked: (id)sender;
@@ -40,8 +43,6 @@
 - (void)subscribeChannel;
 
 
-@property (strong) 	Criteria *criteria;
-@property (strong) 	MBProgressHUD *HUD;
-@property (strong) PFUser * user;
+
 
 @end

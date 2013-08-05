@@ -3,7 +3,7 @@
 //  SurfAlarm
 //
 //  Created by Alexander Medearis on 10/11/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Alexander Medearis. All rights reserved.
 //
 
 #import "SurfAlarmAppDelegate.h"
@@ -31,12 +31,14 @@
 	
     
     // Create the nav controller
-	mainNavController = [[UINavigationController alloc] init];
+	UINavigationController * mainNavController = [[UINavigationController alloc] init];
 	mainNavController.navigationBar.tintColor = [UIColor colorWithRed:0 green:0.2 blue:0.4 alpha:0];
 	
 	// Create the main screen
-	mainScreen = [[MainScreenViewController alloc] initWithNibName:@"MainScreen" bundle:[NSBundle mainBundle]];
+	MainScreenViewController * mainScreen = [[MainScreenViewController alloc] initWithNibName:@"MainScreen" bundle:[NSBundle mainBundle]];
 	[mainNavController pushViewController:mainScreen animated:NO];
+    
+    self.mainScreen = mainScreen;
 	
 	// Add the nav controller to the window
 	[window addSubview:mainNavController.view];
@@ -103,7 +105,7 @@
 - (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)devToken {
     [PFPush storeDeviceToken:devToken]; // Send parse the device token
     // Subscribe this user to the broadcast channel, ""
-    [mainScreen subscribeChannel];
+    [self.mainScreen subscribeChannel];
 }
 
 - (void)application:(UIApplication *)app didFailToRegisterForRemoteNotificationsWithError:(NSError *)err {

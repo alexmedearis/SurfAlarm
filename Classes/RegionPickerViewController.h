@@ -10,11 +10,13 @@
 #import "Criteria.h"
 
 @interface RegionPickerViewController : UITableViewController {
- 	NSDictionary * data;
-	NSArray * labels;
-	Criteria * criteria;
+
 }
 
-- (id)initWithStyle:(UITableViewStyle)style criteria:(Criteria *)_criteria;
+@property (strong) NSDictionary * data;
+@property (strong) NSArray * labels;
+@property (strong) Criteria * criteria;
+
+- (id)initWithStyle:(UITableViewStyle)style criteria:(Criteria *)criteria;
 
 @end
