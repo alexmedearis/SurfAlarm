@@ -10,8 +10,9 @@
 #import <Parse/Parse.h>
 #import "Criteria.h"
 #import "MBProgressHUD.h"
-#import "UISlider+FlatUI.h"
-#import "FUIButton.h"
+#import <UISlider+FlatUI.h>
+#import <FUIButton.h>
+#import <FUISegmentedControl.h>
 
 
 @interface MainScreenViewController : UIViewController <MBProgressHUDDelegate>{
@@ -20,7 +21,7 @@
 
 @property (weak) IBOutlet UIButton * timeButton;
 @property (weak) IBOutlet UIButton * placeButton;
-@property (weak) IBOutlet UISegmentedControl * conditionsSelector;
+@property (weak) IBOutlet FUISegmentedControl * conditionsSelector;
 @property (weak) IBOutlet UIButton * saveButton;
 @property (weak) IBOutlet UILabel * alarmIndicatorLabel;
 @property (weak) IBOutlet UILabel * dirtyIndicatorLabel;

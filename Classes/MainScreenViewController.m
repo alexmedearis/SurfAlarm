@@ -54,16 +54,30 @@
     HUD.labelText = @"Loading";
     self.HUD = HUD;
     
-    [self.waveHeightSlider configureFlatSliderWithTrackColor:[UIColor fadedColor]
-                                  progressColor:[UIColor turquoiseColor]
-                                     thumbColor:[UIColor turquoiseShadowColor]];
+    [self setupColors];
     
+    [self loadUser];
+}
+
+- (void)setupColors {
     [self.navigationController.navigationBar configureFlatNavigationBarWithColor:[UIColor turquoiseColor]];
+    
+    [self.waveHeightSlider configureFlatSliderWithTrackColor:[UIColor fadedColor]
+                                               progressColor:[UIColor turquoiseColor]
+                                                  thumbColor:[UIColor turquoiseShadowColor]];
+
     
     self.cancelButton.buttonColor = [UIColor cancelRedColor];
     self.cancelButton.shadowColor = [UIColor redShadowColor];
     
-    [self loadUser];
+    self.conditionsSelector.cornerRadius = 5.0;
+    self.conditionsSelector.selectedColor = [UIColor turquoiseColor];
+    self.conditionsSelector.deselectedColor = [UIColor fadedColor];
+    self.conditionsSelector.dividerColor = [UIColor grayColor];
+    self.conditionsSelector.selectedFont = [UIFont fontWithName:@"Arial" size:15.0];
+    self.conditionsSelector.deselectedFont = [UIFont fontWithName:@"Arial" size:15.0];
+    self.conditionsSelector.selectedFontColor = [UIColor whiteColor];
+    self.conditionsSelector.deselectedFontColor = [UIColor darkGrayColor];
 }
 
 - (void)viewWillAppear:(BOOL)animated {

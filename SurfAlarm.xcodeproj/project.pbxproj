@@ -10,6 +10,7 @@
 		003CD3DB177BA7E90024DC83 /* RegionPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CD3D9177BA7E90024DC83 /* RegionPickerViewController.m */; };
 		003CD3DE177BAC1D0024DC83 /* Locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 003CD3DD177BAC1D0024DC83 /* Locations.plist */; };
 		0092432517CD923F002DE65B /* UIColor+AppColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092432417CD923F002DE65B /* UIColor+AppColors.m */; };
+		0092432817CD955E002DE65B /* SurfAlarmButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092432717CD955E002DE65B /* SurfAlarmButton.m */; };
 		00B167DD16B0E3FB005ED9CC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167DC16B0E3FB005ED9CC /* Parse.framework */; };
 		00B167DF16B0E458005ED9CC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167DE16B0E458005ED9CC /* AudioToolbox.framework */; };
 		00B167E116B0E45F005ED9CC /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167E016B0E45F005ED9CC /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -68,6 +69,8 @@
 		003CD3DD177BAC1D0024DC83 /* Locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Locations.plist; path = Resources/Locations.plist; sourceTree = "<group>"; };
 		0092432317CD923F002DE65B /* UIColor+AppColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AppColors.h"; sourceTree = "<group>"; };
 		0092432417CD923F002DE65B /* UIColor+AppColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AppColors.m"; sourceTree = "<group>"; };
+		0092432617CD955E002DE65B /* SurfAlarmButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SurfAlarmButton.h; path = Classes/SurfAlarmButton.h; sourceTree = "<group>"; };
+		0092432717CD955E002DE65B /* SurfAlarmButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SurfAlarmButton.m; path = Classes/SurfAlarmButton.m; sourceTree = "<group>"; };
 		00B167DC16B0E3FB005ED9CC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		00B167DE16B0E458005ED9CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		00B167E016B0E45F005ED9CC /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
@@ -224,6 +227,8 @@
 				0092432417CD923F002DE65B /* UIColor+AppColors.m */,
 				32CA4F630368D1EE00C91783 /* SurfAlarm_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
+				0092432617CD955E002DE65B /* SurfAlarmButton.h */,
+				0092432717CD955E002DE65B /* SurfAlarmButton.m */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -403,6 +408,7 @@
 				323E6BD8127099860072C1C7 /* WebViewController.m in Sources */,
 				003CD3DB177BA7E90024DC83 /* RegionPickerViewController.m in Sources */,
 				0092432517CD923F002DE65B /* UIColor+AppColors.m in Sources */,
+				0092432817CD955E002DE65B /* SurfAlarmButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
