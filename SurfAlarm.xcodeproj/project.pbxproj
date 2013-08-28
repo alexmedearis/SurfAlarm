@@ -19,12 +19,6 @@
 		00B167EB16B0E492005ED9CC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167EA16B0E492005ED9CC /* Security.framework */; };
 		00B167ED16B0E497005ED9CC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167EC16B0E497005ED9CC /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		00B167EF16B0E49B005ED9CC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167EE16B0E49B005ED9CC /* StoreKit.framework */; };
-		00BC8E04176631B100BD81CF /* FUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC8E03176631B100BD81CF /* FUIButton.m */; };
-		00BC8E07176631C000BD81CF /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC8E06176631C000BD81CF /* UIImage+FlatUI.m */; };
-		00BC8E0A1766326E00BD81CF /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC8E091766326E00BD81CF /* UIColor+FlatUI.m */; };
-		00BC8E101766332900BD81CF /* FUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC8E0F1766332900BD81CF /* FUISegmentedControl.m */; };
-		00BC8E131766333900BD81CF /* UISlider+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC8E121766333900BD81CF /* UISlider+FlatUI.m */; };
-		00BC8E16176633FB00BD81CF /* UINavigationBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC8E15176633FB00BD81CF /* UINavigationBar+FlatUI.m */; };
 		00D1BC49177A6D6E00E6FD37 /* pickerOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D1BC48177A6D6E00E6FD37 /* pickerOverlay.png */; };
 		00D6949B16B77B5400D161B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D6949A16B77B5400D161B5 /* Default-568h@2x.png */; };
 		00D694A716B77CB700D161B5 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D694A116B77CB700D161B5 /* Icon-Small@2x.png */; };
@@ -42,7 +36,6 @@
 		32252C3A1266B27200BEC5A1 /* LocationPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32252C391266B27200BEC5A1 /* LocationPickerViewController.m */; };
 		32252C421266B62900BEC5A1 /* CountyPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32252C411266B62900BEC5A1 /* CountyPickerViewController.m */; };
 		32252CFE1267633D00BEC5A1 /* alarm_clock_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 32252CFD1267633D00BEC5A1 /* alarm_clock_icon.png */; };
-		32252D3A126B6B6A00BEC5A1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 32252D39126B6B6A00BEC5A1 /* MBProgressHUD.m */; };
 		322E0E2312638A6F0081D1BD /* TimePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 322E0E2212638A6F0081D1BD /* TimePicker.xib */; };
 		3238E67512BFBF6B00373FE7 /* handle_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238E67312BFBF6B00373FE7 /* handle_highlight.png */; };
 		3238E67612BFBF6B00373FE7 /* handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238E67412BFBF6B00373FE7 /* handle.png */; };
@@ -65,6 +58,7 @@
 		3290655F126567190067FD8E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3290655E126567190067FD8E /* CFNetwork.framework */; };
 		32906561126567280067FD8E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32906560126567280067FD8E /* SystemConfiguration.framework */; };
 		32906563126567400067FD8E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32906562126567400067FD8E /* MobileCoreServices.framework */; };
+		6F4069A66434421CBB0BC79C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 094217CDD01946B994F82876 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,18 +75,6 @@
 		00B167EA16B0E492005ED9CC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		00B167EC16B0E497005ED9CC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		00B167EE16B0E49B005ED9CC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		00BC8E02176631B100BD81CF /* FUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUIButton.h; path = FUI/FUIButton.h; sourceTree = "<group>"; };
-		00BC8E03176631B100BD81CF /* FUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUIButton.m; path = FUI/FUIButton.m; sourceTree = "<group>"; };
-		00BC8E05176631C000BD81CF /* UIImage+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+FlatUI.h"; path = "FUI/UIImage+FlatUI.h"; sourceTree = "<group>"; };
-		00BC8E06176631C000BD81CF /* UIImage+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FlatUI.m"; path = "FUI/UIImage+FlatUI.m"; sourceTree = "<group>"; };
-		00BC8E081766326E00BD81CF /* UIColor+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+FlatUI.h"; path = "FUI/UIColor+FlatUI.h"; sourceTree = "<group>"; };
-		00BC8E091766326E00BD81CF /* UIColor+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FlatUI.m"; path = "FUI/UIColor+FlatUI.m"; sourceTree = "<group>"; };
-		00BC8E0E1766332900BD81CF /* FUISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUISegmentedControl.h; path = FUI/FUISegmentedControl.h; sourceTree = "<group>"; };
-		00BC8E0F1766332900BD81CF /* FUISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUISegmentedControl.m; path = FUI/FUISegmentedControl.m; sourceTree = "<group>"; };
-		00BC8E111766333900BD81CF /* UISlider+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UISlider+FlatUI.h"; path = "FUI/UISlider+FlatUI.h"; sourceTree = "<group>"; };
-		00BC8E121766333900BD81CF /* UISlider+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UISlider+FlatUI.m"; path = "FUI/UISlider+FlatUI.m"; sourceTree = "<group>"; };
-		00BC8E14176633FB00BD81CF /* UINavigationBar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+FlatUI.h"; path = "FUI/UINavigationBar+FlatUI.h"; sourceTree = "<group>"; };
-		00BC8E15176633FB00BD81CF /* UINavigationBar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+FlatUI.m"; path = "FUI/UINavigationBar+FlatUI.m"; sourceTree = "<group>"; };
 		00D1BC48177A6D6E00E6FD37 /* pickerOverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pickerOverlay.png; path = Resources/pickerOverlay.png; sourceTree = "<group>"; };
 		00D6949A16B77B5400D161B5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
 		00D694A116B77CB700D161B5 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
@@ -101,6 +83,7 @@
 		00D694A416B77CB700D161B5 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
 		00D694A516B77CB700D161B5 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
 		00D694A616B77CB700D161B5 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Icon-Small.png"; sourceTree = "<group>"; };
+		094217CDD01946B994F82876 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* SurfAlarmAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurfAlarmAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* SurfAlarmAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurfAlarmAppDelegate.m; sourceTree = "<group>"; };
@@ -114,8 +97,6 @@
 		32252C401266B62900BEC5A1 /* CountyPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountyPickerViewController.h; sourceTree = "<group>"; };
 		32252C411266B62900BEC5A1 /* CountyPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountyPickerViewController.m; sourceTree = "<group>"; };
 		32252CFD1267633D00BEC5A1 /* alarm_clock_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alarm_clock_icon.png; path = Resources/alarm_clock_icon.png; sourceTree = "<group>"; };
-		32252D38126B6B6A00BEC5A1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = Classes/MBProgressHUD.h; sourceTree = "<group>"; };
-		32252D39126B6B6A00BEC5A1 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = Classes/MBProgressHUD.m; sourceTree = "<group>"; };
 		322E0E2212638A6F0081D1BD /* TimePicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TimePicker.xib; path = Resources/TimePicker.xib; sourceTree = "<group>"; };
 		3238E67312BFBF6B00373FE7 /* handle_highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = handle_highlight.png; path = Resources/handle_highlight.png; sourceTree = "<group>"; };
 		3238E67412BFBF6B00373FE7 /* handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = handle.png; path = Resources/handle.png; sourceTree = "<group>"; };
@@ -144,6 +125,7 @@
 		32906562126567400067FD8E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		32CA4F630368D1EE00C91783 /* SurfAlarm_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurfAlarm_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SurfAlarm-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SurfAlarm-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B52604E7B9544950940526C2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +150,7 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				323D16B4128A664700995D9E /* AVFoundation.framework in Frameworks */,
 				00B167DD16B0E3FB005ED9CC /* Parse.framework in Frameworks */,
+				6F4069A66434421CBB0BC79C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +209,7 @@
 				32906560126567280067FD8E /* SystemConfiguration.framework */,
 				32906562126567400067FD8E /* MobileCoreServices.framework */,
 				323D16B3128A664700995D9E /* AVFoundation.framework */,
+				B52604E7B9544950940526C2 /* Pods.xcconfig */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -233,20 +217,6 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				00BC8E14176633FB00BD81CF /* UINavigationBar+FlatUI.h */,
-				00BC8E15176633FB00BD81CF /* UINavigationBar+FlatUI.m */,
-				00BC8E111766333900BD81CF /* UISlider+FlatUI.h */,
-				00BC8E121766333900BD81CF /* UISlider+FlatUI.m */,
-				00BC8E0E1766332900BD81CF /* FUISegmentedControl.h */,
-				00BC8E0F1766332900BD81CF /* FUISegmentedControl.m */,
-				00BC8E081766326E00BD81CF /* UIColor+FlatUI.h */,
-				00BC8E091766326E00BD81CF /* UIColor+FlatUI.m */,
-				00BC8E05176631C000BD81CF /* UIImage+FlatUI.h */,
-				00BC8E06176631C000BD81CF /* UIImage+FlatUI.m */,
-				00BC8E02176631B100BD81CF /* FUIButton.h */,
-				00BC8E03176631B100BD81CF /* FUIButton.m */,
-				32252D38126B6B6A00BEC5A1 /* MBProgressHUD.h */,
-				32252D39126B6B6A00BEC5A1 /* MBProgressHUD.m */,
 				32CA4F630368D1EE00C91783 /* SurfAlarm_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -293,6 +263,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				094217CDD01946B994F82876 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -304,9 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Surf Alarm" */;
 			buildPhases = (
+				1010CAB46F2540D7A2548644 /* Check Pods Manifest.lock */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				EE090D92F4C848AE8AE36320 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -379,6 +352,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1010CAB46F2540D7A2548644 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		EE090D92F4C848AE8AE36320 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -391,14 +395,7 @@
 				3253115A126387AC00576534 /* TimePickerViewController.m in Sources */,
 				32252C3A1266B27200BEC5A1 /* LocationPickerViewController.m in Sources */,
 				32252C421266B62900BEC5A1 /* CountyPickerViewController.m in Sources */,
-				32252D3A126B6B6A00BEC5A1 /* MBProgressHUD.m in Sources */,
 				323E6BD8127099860072C1C7 /* WebViewController.m in Sources */,
-				00BC8E04176631B100BD81CF /* FUIButton.m in Sources */,
-				00BC8E07176631C000BD81CF /* UIImage+FlatUI.m in Sources */,
-				00BC8E0A1766326E00BD81CF /* UIColor+FlatUI.m in Sources */,
-				00BC8E101766332900BD81CF /* FUISegmentedControl.m in Sources */,
-				00BC8E131766333900BD81CF /* UISlider+FlatUI.m in Sources */,
-				00BC8E16176633FB00BD81CF /* UINavigationBar+FlatUI.m in Sources */,
 				003CD3DB177BA7E90024DC83 /* RegionPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +405,7 @@
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B52604E7B9544950940526C2 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -430,6 +428,7 @@
 		};
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B52604E7B9544950940526C2 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;

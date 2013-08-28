@@ -22,7 +22,7 @@
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [Parse setApplicationId:@"lX1zvfHzIrtf0jUcu3cBNC6JKt5YMUZmJVSNpM8z"
+    [Parse setApplicationId:@"f30kkLGXes5hI8fC1c5HsN1lL5NsgTJafbILJUZL"
                   clientKey:@"TcsVkz6XjJP6UCCzJnLzWR5NaPNBddmvrrJ1GA4c"];
     
     NSLog(@"Registering Remote Notications");
