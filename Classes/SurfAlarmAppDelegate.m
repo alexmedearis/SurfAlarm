@@ -41,7 +41,7 @@
     self.mainScreen = mainScreen;
 	
 	// Add the nav controller to the window
-	[window addSubview:mainNavController.view];
+	[self.window setRootViewController:mainNavController];
 	
 	// Display
     [window makeKeyAndVisible];
