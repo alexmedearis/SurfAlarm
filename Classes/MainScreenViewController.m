@@ -11,6 +11,7 @@
 #import "TimePickerViewController.h"
 #import "RegionPickerViewController.h"
 #import "UIColor+FlatUI.h"
+#import "UIColor+AppColors.h"
 #import "UINavigationBar+FlatUI.h"	
 
 @interface MainScreenViewController (PrivateMethods)
