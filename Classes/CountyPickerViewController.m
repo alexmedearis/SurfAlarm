@@ -39,7 +39,7 @@
 	[label setFont:[UIFont fontWithName:@"Marker Felt" size:20.0]];
 	[label setBackgroundColor:[UIColor clearColor]];
 	[label setTextColor:[UIColor whiteColor]];
-	[label setTextAlignment:UITextAlignmentCenter];
+	[label setTextAlignment:NSTextAlignmentCenter];
 	self.navigationItem.titleView = label;
 	self.view.backgroundColor = [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];
     self.title = @"County";
