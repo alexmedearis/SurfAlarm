@@ -27,11 +27,7 @@
 }
 
 - (void)saveToUser:(PFUser *) user{
-    if(self.time != 0){
-        user[@"time"] = [NSNumber numberWithDouble:self.time];
-    } else {
-        user[@"time"] = [NSNull null];
-    }
+    user[@"time"] = [NSNumber numberWithDouble:self.time];
     user[@"name"] = self.name;
     user[@"url"] = self.url;
     user[@"quality"] = @(self.quality);
@@ -40,11 +36,7 @@
 }
 
 - (void)getFromUser:(PFUser *) user{
-    if(user[@"time"] == 0){
-        self.time = 0;
-    } else {
-        self.time = [user[@"time"] doubleValue];
-    }
+    self.time = 0;
     self.name = user[@"name"];
     self.url = user[@"url"];
     self.quality = [user[@"quality"] integerValue];
