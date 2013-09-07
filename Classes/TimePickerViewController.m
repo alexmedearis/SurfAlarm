@@ -23,7 +23,7 @@
 	
 	// Set Title and Background
 	UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 30)];
-	[label setFont:[UIFont fontWithName:@"Marker Felt" size:20.0]];
+	[label setFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:20.0]];
 	[label setBackgroundColor:[UIColor clearColor]];
 	[label setTextColor:[UIColor whiteColor]];
 	[label setText:@"Time"];

@@ -13,6 +13,7 @@
 #import "UIColor+FlatUI.h"
 #import "UIColor+AppColors.h"
 #import "UINavigationBar+FlatUI.h"	
+#import <FlatUIKit/UIBarButtonItem+FlatUI.h>
 
 @interface MainScreenViewController (PrivateMethods)
 
@@ -39,6 +40,14 @@
     
 	// Set custom image to nav bar
 	self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"headerlogo"]];
+    
+    // Nav bar buttons
+    [UIBarButtonItem configureFlatButtonsWithColor:[UIColor turquoiseShadowColor]
+                                  highlightedColor:[UIColor darkGrayColor]
+                                      cornerRadius:3];
+    NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
+    [attributes setValue:[NSValue valueWithUIOffset:UIOffsetMake(0.0, 0.0)] forKey:UITextAttributeTextShadowOffset];
+    [[UIBarButtonItem appearance] setTitleTextAttributes:attributes forState:UIControlStateNormal];
 	
 	// Set backround
 	self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]];
