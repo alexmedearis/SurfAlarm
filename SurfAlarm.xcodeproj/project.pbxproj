@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		003CD3DB177BA7E90024DC83 /* RegionPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CD3D9177BA7E90024DC83 /* RegionPickerViewController.m */; };
 		003CD3DE177BAC1D0024DC83 /* Locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 003CD3DD177BAC1D0024DC83 /* Locations.plist */; };
-		0092432517CD923F002DE65B /* UIColor+AppColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092432417CD923F002DE65B /* UIColor+AppColors.m */; };
 		0092432817CD955E002DE65B /* SurfAlarmButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092432717CD955E002DE65B /* SurfAlarmButton.m */; };
 		00B167DD16B0E3FB005ED9CC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167DC16B0E3FB005ED9CC /* Parse.framework */; };
 		00B167DF16B0E458005ED9CC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B167DE16B0E458005ED9CC /* AudioToolbox.framework */; };
@@ -29,6 +28,7 @@
 		00D694AA16B77CB700D161B5 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D694A416B77CB700D161B5 /* Icon-72.png */; };
 		00D694AB16B77CB700D161B5 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D694A516B77CB700D161B5 /* Icon-Small-50.png */; };
 		00D694AC16B77CB700D161B5 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D694A616B77CB700D161B5 /* Icon-Small.png */; };
+		00DD684517DBC3970088EF35 /* UIColor+AppColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DD684417DBC3970088EF35 /* UIColor+AppColors.m */; };
 		1D3623260D0F684500981E51 /* SurfAlarmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SurfAlarmAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -67,8 +67,6 @@
 		003CD3D8177BA7E90024DC83 /* RegionPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionPickerViewController.h; sourceTree = "<group>"; };
 		003CD3D9177BA7E90024DC83 /* RegionPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionPickerViewController.m; sourceTree = "<group>"; };
 		003CD3DD177BAC1D0024DC83 /* Locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Locations.plist; path = Resources/Locations.plist; sourceTree = "<group>"; };
-		0092432317CD923F002DE65B /* UIColor+AppColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AppColors.h"; sourceTree = "<group>"; };
-		0092432417CD923F002DE65B /* UIColor+AppColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AppColors.m"; sourceTree = "<group>"; };
 		0092432617CD955E002DE65B /* SurfAlarmButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SurfAlarmButton.h; path = Classes/SurfAlarmButton.h; sourceTree = "<group>"; };
 		0092432717CD955E002DE65B /* SurfAlarmButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SurfAlarmButton.m; path = Classes/SurfAlarmButton.m; sourceTree = "<group>"; };
 		00B167DC16B0E3FB005ED9CC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
@@ -89,6 +87,8 @@
 		00D694A416B77CB700D161B5 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
 		00D694A516B77CB700D161B5 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
 		00D694A616B77CB700D161B5 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Icon-Small.png"; sourceTree = "<group>"; };
+		00DD684317DBC3970088EF35 /* UIColor+AppColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+AppColors.h"; path = "Classes/UIColor+AppColors.h"; sourceTree = "<group>"; };
+		00DD684417DBC3970088EF35 /* UIColor+AppColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+AppColors.m"; path = "Classes/UIColor+AppColors.m"; sourceTree = "<group>"; };
 		094217CDD01946B994F82876 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* SurfAlarmAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurfAlarmAppDelegate.h; sourceTree = "<group>"; };
@@ -223,8 +223,8 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				0092432317CD923F002DE65B /* UIColor+AppColors.h */,
-				0092432417CD923F002DE65B /* UIColor+AppColors.m */,
+				00DD684317DBC3970088EF35 /* UIColor+AppColors.h */,
+				00DD684417DBC3970088EF35 /* UIColor+AppColors.m */,
 				32CA4F630368D1EE00C91783 /* SurfAlarm_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 				0092432617CD955E002DE65B /* SurfAlarmButton.h */,
@@ -407,8 +407,8 @@
 				32252C421266B62900BEC5A1 /* CountyPickerViewController.m in Sources */,
 				323E6BD8127099860072C1C7 /* WebViewController.m in Sources */,
 				003CD3DB177BA7E90024DC83 /* RegionPickerViewController.m in Sources */,
-				0092432517CD923F002DE65B /* UIColor+AppColors.m in Sources */,
 				0092432817CD955E002DE65B /* SurfAlarmButton.m in Sources */,
+				00DD684517DBC3970088EF35 /* UIColor+AppColors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -47,6 +47,7 @@
                                       cornerRadius:3];
     NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
     [attributes setValue:[NSValue valueWithUIOffset:UIOffsetMake(0.0, 0.0)] forKey:UITextAttributeTextShadowOffset];
+    [attributes setValue: [UIFont fontWithName:@"Helvetica-Light" size:11.0] forKey:UITextAttributeFont];
     [[UIBarButtonItem appearance] setTitleTextAttributes:attributes forState:UIControlStateNormal];
 	
 	// Set backround
@@ -83,8 +84,8 @@
     self.conditionsSelector.selectedColor = [UIColor turquoiseColor];
     self.conditionsSelector.deselectedColor = [UIColor fadedColor];
     self.conditionsSelector.dividerColor = [UIColor grayColor];
-    self.conditionsSelector.selectedFont = [UIFont fontWithName:@"Arial" size:15.0];
-    self.conditionsSelector.deselectedFont = [UIFont fontWithName:@"Arial" size:15.0];
+    self.conditionsSelector.selectedFont = [UIFont fontWithName:@"HelveticaNeue-Light" size:15.0];
+    self.conditionsSelector.deselectedFont = [UIFont fontWithName:@"HelveticaNeue-Light" size:15.0];
     self.conditionsSelector.selectedFontColor = [UIColor whiteColor];
     self.conditionsSelector.deselectedFontColor = [UIColor darkGrayColor];
 }
