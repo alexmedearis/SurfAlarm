@@ -11,6 +11,7 @@
 
 #import <AVFoundation/AVFoundation.h>
 #import <Parse/Parse.h>
+#import <Appirater/Appirater.h>
 
 @implementation SurfAlarmAppDelegate
 
@@ -25,6 +26,11 @@
     [Parse setApplicationId:@"f30kkLGXes5hI8fC1c5HsN1lL5NsgTJafbILJUZL"
                   clientKey:@"TcsVkz6XjJP6UCCzJnLzWR5NaPNBddmvrrJ1GA4c"];
     
+    [Appirater setAppId:@"398315994"];
+    [Appirater setDaysUntilPrompt:1];
+    [Appirater setUsesUntilPrompt:4];
+
+        
     NSLog(@"Registering Remote Notications");
 	[[UIApplication sharedApplication] registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
 
@@ -51,6 +57,10 @@
 		[self handleNotification];
 	}
 	
+    [Appirater setDaysUntilPrompt:1];
+    [Appirater setUsesUntilPrompt:4];
+    [Appirater appLaunched:YES];
+    
 	return YES;
 }
 
@@ -75,6 +85,7 @@
     /*
      Called as part of  transition from the background to the inactive state: here you can undo many of the changes made on entering the background.
      */
+    [Appirater appEnteredForeground:YES];
 }
 
 
