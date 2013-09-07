@@ -14,7 +14,7 @@
 
 }
 
-@property (strong) NSDate *  time;
+@property (assign) NSTimeInterval time;
 @property (strong) NSString *  name;
 @property (strong) NSString *  url;
 @property (assign, nonatomic) NSInteger quality;

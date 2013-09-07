@@ -29,10 +29,10 @@
 	[label setText:@"Time"];
 	[label setTextAlignment:NSTextAlignmentCenter];
     NSDate * toSet = [NSDate date];
-	if(self.criteria.time != nil){
+	if(self.criteria.time != 0){
         NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier: NSGregorianCalendar];
         NSDateComponents *toSetComponents = [gregorian components: NSUIntegerMax fromDate: toSet];
-        NSDateComponents *criteriaComponents = [gregorian components: NSUIntegerMax fromDate: self.criteria.time];
+        NSDateComponents *criteriaComponents = [gregorian components: NSUIntegerMax fromDate: [NSDate dateWithTimeIntervalSince1970:self.criteria.time]];
         
         [toSetComponents setHour: criteriaComponents.hour];
         [toSetComponents setMinute: criteriaComponents.minute];
@@ -45,7 +45,7 @@
 }
 
 - (IBAction)setTimeClicked:(id)sender {
-    self.criteria.time = self.timePicker.date;
+    self.criteria.time = [self.timePicker.date timeIntervalSince1970];
 	self.criteria.isDirty = YES;
 	[self.navigationController popToRootViewControllerAnimated:YES];
 }

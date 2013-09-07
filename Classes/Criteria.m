@@ -15,7 +15,7 @@
 
 - (id) initWithDefaultValues {
 	if (self = [super init]) {
-		self.time = nil;
+		self.time = 0;
 		self.name = @"Steamer Lane";
 		self.url = @"/Steamer-Lane-Surf-Report/163/";
 		self.quality = 0;
@@ -27,8 +27,8 @@
 }
 
 - (void)saveToUser:(PFUser *) user{
-    if(self.time != nil){
-        user[@"time"] = self.time;
+    if(self.time != 0){
+        user[@"time"] = [NSNumber numberWithDouble:self.time];
     } else {
         user[@"time"] = [NSNull null];
     }
@@ -40,10 +40,10 @@
 }
 
 - (void)getFromUser:(PFUser *) user{
-    if(user[@"time"] == [NSNull null]){
-        self.time = nil;
+    if(user[@"time"] == 0){
+        self.time = 0;
     } else {
-        self.time = user[@"time"];
+        self.time = [user[@"time"] doubleValue];
     }
     self.name = user[@"name"];
     self.url = user[@"url"];

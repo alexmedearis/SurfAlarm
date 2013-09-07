@@ -96,10 +96,10 @@
 - (void) updateUI {
 	
     // Time (can be nil if not set)
-    if(self.criteria.time != nil){
+    if(self.criteria.time != 0){
 		NSDateFormatter * time = [[NSDateFormatter alloc] init];
 		[time setDateFormat:@"h:mm a"];
-		NSString * strdate = [[NSString alloc] initWithFormat:@"%@",[time stringFromDate:self.criteria.time]];
+		NSString * strdate = [[NSString alloc] initWithFormat:@"%@",[time stringFromDate:[NSDate dateWithTimeIntervalSince1970:self.criteria.time]]];
 		[self.timeButton setTitle:strdate forState:UIControlStateNormal];
 	} else {
 		[self.timeButton setTitle:@"Not Set" forState:UIControlStateNormal];
@@ -195,7 +195,7 @@
 }
 
 - (IBAction)cancelClicked:(id)sender {
-    self.criteria.time = nil;
+    self.criteria.time = 0;
 	self.criteria.isDirty = YES;
     [self updateUI];
     [self doSave];
@@ -203,13 +203,13 @@
 
 - (void)updateCriteriaString{
     NSString *criteriaString;
-    if(self.criteria.time == nil) {
+    if(self.criteria.time == 0) {
 		criteriaString = @"Not Set";
 	} else {
 		// Display the saved alarm in the title bar
 		NSDateFormatter * time = [[NSDateFormatter alloc] init];
 		[time setDateFormat:@"h:mm a"];
-		NSString * strdate = [[NSString alloc] initWithFormat:@"%@",[time stringFromDate:self.criteria.time]];
+		NSString * strdate = [[NSString alloc] initWithFormat:@"%@",[time stringFromDate:[NSDate dateWithTimeIntervalSince1970:self.criteria.time]]];
 		criteriaString = [NSString stringWithFormat:@"%@ - %@ - %@ - %dft+", strdate, self.criteria.name, [self stringFromQuality:self.criteria.quality], self.criteria.waveHeight];
 	}
     [self.alarmIndicatorLabel setText:criteriaString];
