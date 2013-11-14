@@ -80,7 +80,7 @@
     // Configure the cell...
     [[cell textLabel] setText:self.labels[[indexPath row]]];
 	[[cell textLabel] setFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:20.0]];
-	[cell setBackgroundColor:[UIColor grayColor]];
+	[cell setBackgroundColor:[UIColor clearColor]];
 	[cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
     return cell;
 }
