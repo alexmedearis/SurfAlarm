@@ -28,8 +28,7 @@
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
-        
+        self.title = @"Home";
     }
     return self;
 }
@@ -41,15 +40,6 @@
 	// Set custom image to nav bar
 	self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"headerlogo"]];
     self.navigationController.navigationBar.translucent = NO;
-    
-    // Nav bar buttons
-    [UIBarButtonItem configureFlatButtonsWithColor:[UIColor turquoiseShadowColor]
-                                  highlightedColor:[UIColor darkGrayColor]
-                                      cornerRadius:3];
-    NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
-    [attributes setValue:[NSValue valueWithUIOffset:UIOffsetMake(0.0, 0.0)] forKey:UITextAttributeTextShadowOffset];
-    [attributes setValue: [UIFont fontWithName:@"Helvetica-Light" size:11.0] forKey:UITextAttributeFont];
-    [[UIBarButtonItem appearance] setTitleTextAttributes:attributes forState:UIControlStateNormal];
 	
 	// Set backround
 	self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]];
@@ -71,7 +61,12 @@
 }
 
 - (void)setupColors {
-    [self.navigationController.navigationBar configureFlatNavigationBarWithColor:[UIColor turquoiseColor]];
+    // iOS 6 / 7 tint color switch
+    if([self.navigationController.navigationBar respondsToSelector:@selector(setBarTintColor:)]) {
+        self.navigationController.navigationBar.barTintColor = [UIColor turquoiseColor];
+    } else {
+        self.navigationController.navigationBar.tintColor = [UIColor turquoiseColor];
+    }
     
     [self.waveHeightSlider configureFlatSliderWithTrackColor:[UIColor fadedColor]
                                                progressColor:[UIColor turquoiseColor]

@@ -40,9 +40,10 @@
 	[label setBackgroundColor:[UIColor clearColor]];
 	[label setTextColor:[UIColor whiteColor]];
 	[label setTextAlignment:NSTextAlignmentCenter];
+    [label setText:@"Sub-Region"];
 	self.navigationItem.titleView = label;
 	self.view.backgroundColor = [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];
-    self.title = @"County";
+    self.title = @"Sub-Region";
 }
 
 

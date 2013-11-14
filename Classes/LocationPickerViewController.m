@@ -48,7 +48,8 @@ enum {
 	[label setText:@"Location"];
 	[label setTextAlignment:NSTextAlignmentCenter];
 	self.navigationItem.titleView = label;
-	self.view.backgroundColor = [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];	
+	self.view.backgroundColor = [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];
+    self.title = @"Location";
 }
 
 #pragma mark -

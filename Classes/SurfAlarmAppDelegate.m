@@ -38,8 +38,6 @@
     
     // Create the nav controller
 	UINavigationController * mainNavController = [[UINavigationController alloc] init];
-	mainNavController.navigationBar.tintColor = [UIColor colorWithRed:0 green:0.2 blue:0.4 alpha:0];
-	
 	// Create the main screen
 	MainScreenViewController * mainScreen = [[MainScreenViewController alloc] initWithNibName:@"MainScreen" bundle:[NSBundle mainBundle]];
 	[mainNavController pushViewController:mainScreen animated:NO];
