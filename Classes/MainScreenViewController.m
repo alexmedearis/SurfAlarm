@@ -40,6 +40,7 @@
     
 	// Set custom image to nav bar
 	self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"headerlogo"]];
+    self.navigationController.navigationBar.translucent = NO;
     
     // Nav bar buttons
     [UIBarButtonItem configureFlatButtonsWithColor:[UIColor turquoiseShadowColor]

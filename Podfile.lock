@@ -1,7 +1,7 @@
 PODS:
   - Appirater (1.0.5)
   - FlatUIKit (1.2)
-  - MBProgressHUD (0.7)
+  - MBProgressHUD (0.8)
 
 DEPENDENCIES:
   - Appirater (= 1.0.5)
@@ -11,6 +11,6 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Appirater: 5addfe3fac0aa85209b553f894b6b0533152786f
   FlatUIKit: 43b2acaa6f4ef57539b51b00e4ce62d506e33e11
-  MBProgressHUD: 1fd8591a2216d5dec6de24e09187bb03bcbe9946
+  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
 
-COCOAPODS: 0.24.0
+COCOAPODS: 0.25.0
