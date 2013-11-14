@@ -1885,5 +1885,629 @@
 			</array>
 		</dict>
 	</dict>
+    <key>Hawaii</key>
+	<dict>
+		<key>Big Island</key>
+		<dict>
+			<key>Hapuna Pt</key>
+			<array>
+				<integer>1246</integer>
+				<key>/Hapuna-Pt-Surf-Report/1246/</key>
+			</array>
+			<key>Kahaluu</key>
+			<array>
+				<integer>1247</integer>
+				<key>/Kahaluu-Surf-Report/1247/</key>
+			</array>
+			<key>Banyans</key>
+			<array>
+				<integer>2784</integer>
+				<key>/Banyans-Surf-Report/2784/</key>
+			</array>
+			<key>Kawaihae Breakwater</key>
+			<array>
+				<integer>2783</integer>
+				<key>/Kawaihae-Breakwater-Surf-Report/2783/</key>
+			</array>
+			<key>Pohoiki</key>
+			<array>
+				<integer>3814</integer>
+				<key>/Pohoiki-Surf-Report/3814/</key>
+			</array>
+			<key>Honoli'i</key>
+			<array>
+				<integer>3815</integer>
+				<key>/Honolii-Surf-Report/3815/</key>
+			</array>
+			<key>Magics</key>
+			<array>
+				<integer>3957</integer>
+				<key>/Magics-Surf-Report/3957/</key>
+			</array>
+			<key>Pine Trees</key>
+			<array>
+				<integer>3958</integer>
+				<key>/Pine-Trees-Surf-Report/3958/</key>
+			</array>
+		</dict>
+		<key>Kauai</key>
+		<dict>
+			<key>Hanalei Bay</key>
+			<array>
+				<integer>3051</integer>
+				<key>/Hanalei-Bay-Surf-Report/3051/</key>
+			</array>
+			<key>Polihale</key>
+			<array>
+				<integer>3080</integer>
+				<key>/Polihale-Surf-Report/3080/</key>
+			</array>
+		</dict>
+		<key>Maui</key>
+		<dict>
+			<key>Peahi - Jaws</key>
+			<array>
+				<integer>617</integer>
+				<key>/Peahi-Jaws-Surf-Report/617/</key>
+			</array>
+			<key>Ma'alaea Bay</key>
+			<array>
+				<integer>618</integer>
+				<key>/Maalaea-Bay-Surf-Report/618/</key>
+			</array>
+			<key>Honolua</key>
+			<array>
+				<integer>697</integer>
+				<key>/Honolua-Surf-Report/697/</key>
+			</array>
+			<key>Hookipa</key>
+			<array>
+				<integer>1244</integer>
+				<key>/Hookipa-Surf-Report/1244/</key>
+			</array>
+			<key>Windmills</key>
+			<array>
+				<integer>1274</integer>
+				<key>/Windmills-Surf-Report/1274/</key>
+			</array>
+			<key>Honokohau</key>
+			<array>
+				<integer>2782</integer>
+				<key>/Honokohau-Surf-Report/2782/</key>
+			</array>
+			<key>Little Makaha</key>
+			<array>
+				<integer>2780</integer>
+				<key>/Little-Makaha-Surf-Report/2780/</key>
+			</array>
+			<key>Pavilions</key>
+			<array>
+				<integer>2785</integer>
+				<key>/Pavilions-Surf-Report/2785/</key>
+			</array>
+			<key>Rainbows</key>
+			<array>
+				<integer>2966</integer>
+				<key>/Rainbows-Surf-Report/2966/</key>
+			</array>
+			<key>Windmills - Maui</key>
+			<array>
+				<integer>3086</integer>
+				<key>/Windmills-Maui-Surf-Report/3086/</key>
+			</array>
+			<key>Aluhi Bay</key>
+			<array>
+				<integer>3668</integer>
+				<key>/Aluhi-Bay-Surf-Report/3668/</key>
+			</array>
+		</dict>
+		<key>Oahu North Shore</key>
+		<dict>
+			<key>Waimea Bay</key>
+			<array>
+				<integer>549</integer>
+				<key>/Waimea-Bay-Surf-Report/549/</key>
+			</array>
+			<key>Pipeline / Backdoor</key>
+			<array>
+				<integer>616</integer>
+				<key>/Pipeline-Backdoor-Surf-Report/616/</key>
+			</array>
+			<key>Sunset</key>
+			<array>
+				<integer>657</integer>
+				<key>/Sunset-Surf-Report/657/</key>
+			</array>
+			<key>Rocky Point</key>
+			<array>
+				<integer>658</integer>
+				<key>/Rocky-Point-Surf-Report/658/</key>
+			</array>
+			<key>Velzyland</key>
+			<array>
+				<integer>659</integer>
+				<key>/Velzyland-Surf-Report/659/</key>
+			</array>
+			<key>Hale'iwa</key>
+			<array>
+				<integer>660</integer>
+				<key>/Haleiwa-Surf-Report/660/</key>
+			</array>
+			<key>Backyards</key>
+			<array>
+				<integer>2232</integer>
+				<key>/Backyards-Surf-Report/2232/</key>
+			</array>
+			<key>Log Cabins</key>
+			<array>
+				<integer>2226</integer>
+				<key>/Log-Cabins-Surf-Report/2226/</key>
+			</array>
+			<key>Off-The-Wall</key>
+			<array>
+				<integer>2233</integer>
+				<key>/Off-The-Wall-Surf-Report/2233/</key>
+			</array>
+			<key>Rockpile/Heisler Park</key>
+			<array>
+				<integer>2234</integer>
+				<key>/Rockpile-Heisler-Park-Surf-Report/2234/</key>
+			</array>
+			<key>Laniakea</key>
+			<array>
+				<integer>3672</integer>
+				<key>/Laniakea-Surf-Report/3672/</key>
+			</array>
+		</dict>
+		<key>Oahu South Shore</key>
+		<dict>
+			<key>Ala Moana</key>
+			<array>
+				<integer>661</integer>
+				<key>/Ala-Moana-Surf-Report/661/</key>
+			</array>
+			<key>Queens/Canoes (Waikiki)</key>
+			<array>
+				<integer>662</integer>
+				<key>/Queens-Canoes-Waikiki-Surf-Report/662/</key>
+			</array>
+			<key>Kailua</key>
+			<array>
+				<integer>671</integer>
+				<key>/Kailua-Surf-Report/671/</key>
+			</array>
+			<key>Makaha Point</key>
+			<array>
+				<integer>983</integer>
+				<key>/Makaha-Point-Surf-Report/983/</key>
+			</array>
+			<key>Makapuu Point</key>
+			<array>
+				<integer>984</integer>
+				<key>/Makapuu-Point-Surf-Report/984/</key>
+			</array>
+			<key>Sandy Beach</key>
+			<array>
+				<integer>1099</integer>
+				<key>/Sandy-Beach-Surf-Report/1099/</key>
+			</array>
+			<key>Barbers Point</key>
+			<array>
+				<integer>3082</integer>
+				<key>/Barbers-Point-Surf-Report/3082/</key>
+			</array>
+			<key>Maili Point</key>
+			<array>
+				<integer>3084</integer>
+				<key>/Maili-Point-Surf-Report/3084/</key>
+			</array>
+			<key>Tracks</key>
+			<array>
+				<integer>3085</integer>
+				<key>/Tracks-Surf-Report/3085/</key>
+			</array>
+		</dict>
+	</dict>
+	<key>Baja Mexico</key>
+	<dict>
+		<key>Central Baja</key>
+		<dict>
+			<key>Punta Blanca</key>
+			<array>
+				<integer>325</integer>
+				<key>/Punta-Blanca-Surf-Report/325/</key>
+			</array>
+			<key>Playa Elefante</key>
+			<array>
+				<integer>326</integer>
+				<key>/Playa-Elefante-Surf-Report/326/</key>
+			</array>
+			<key>Punta Negra</key>
+			<array>
+				<integer>327</integer>
+				<key>/Punta-Negra-Surf-Report/327/</key>
+			</array>
+			<key>Miller's Landing</key>
+			<array>
+				<integer>766</integer>
+				<key>/Millers-Landing-Surf-Report/766/</key>
+			</array>
+			<key>The Wall</key>
+			<array>
+				<integer>767</integer>
+				<key>/The-Wall-Surf-Report/767/</key>
+			</array>
+			<key>Punta Sta Rosalillita</key>
+			<array>
+				<integer>768</integer>
+				<key>/Punta-Sta-Rosalillita-Surf-Report/768/</key>
+			</array>
+			<key>Puerto San Andres</key>
+			<array>
+				<integer>769</integer>
+				<key>/Puerto-San-Andres-Surf-Report/769/</key>
+			</array>
+			<key>Punto Lobos</key>
+			<array>
+				<integer>770</integer>
+				<key>/Punto-Lobos-Surf-Report/770/</key>
+			</array>
+			<key>El Cardon</key>
+			<array>
+				<integer>771</integer>
+				<key>/El-Cardon-Surf-Report/771/</key>
+			</array>
+			<key>Punta Maria</key>
+			<array>
+				<integer>772</integer>
+				<key>/Punta-Maria-Surf-Report/772/</key>
+			</array>
+			<key>Punta Cono</key>
+			<array>
+				<integer>773</integer>
+				<key>/Punta-Cono-Surf-Report/773/</key>
+			</array>
+			<key>Punta Canoas</key>
+			<array>
+				<integer>774</integer>
+				<key>/Punta-Canoas-Surf-Report/774/</key>
+			</array>
+			<key>Bahia Tortugas</key>
+			<array>
+				<integer>4143</integer>
+				<key>/Bahia-Tortugas-Surf-Report/4143/</key>
+			</array>
+			<key>Open Doors</key>
+			<array>
+				<integer>4151</integer>
+				<key>/Open-Doors-Surf-Report/4151/</key>
+			</array>
+		</dict>
+		<key>Northern Baja</key>
+		<dict>
+			<key>Isla Todos Santos (Killers)</key>
+			<array>
+				<integer>777</integer>
+				<key>/Isla-Todos-Santos-Killers-Surf-Report/777/</key>
+			</array>
+			<key>Cabo Colonet</key>
+			<array>
+				<integer>4144</integer>
+				<key>/Cabo-Colonet-Surf-Report/4144/</key>
+			</array>
+			<key>Calafia</key>
+			<array>
+				<integer>4145</integer>
+				<key>/Calafia-Surf-Report/4145/</key>
+			</array>
+			<key>K55/Campo Lopez</key>
+			<array>
+				<integer>4146</integer>
+				<key>/K55-Campo-Lopez-Surf-Report/4146/</key>
+			</array>
+			<key>K38, K38.5, K39</key>
+			<array>
+				<integer>4147</integer>
+				<key>/K38-K385-K39-Surf-Report/4147/</key>
+			</array>
+			<key>Las Gaviotas - Baja</key>
+			<array>
+				<integer>4149</integer>
+				<key>/Las-Gaviotas-Baja-Surf-Report/4149/</key>
+			</array>
+			<key>K58/La Fonda</key>
+			<array>
+				<integer>4150</integer>
+				<key>/K58-La-Fonda-Surf-Report/4150/</key>
+			</array>
+			<key>Punta Camalú</key>
+			<array>
+				<integer>4152</integer>
+				<key>/Punta-Camalu-Surf-Report/4152/</key>
+			</array>
+			<key>San Antonio del Mar</key>
+			<array>
+				<integer>4153</integer>
+				<key>/San-Antonio-del-Mar-Surf-Report/4153/</key>
+			</array>
+			<key>Santo Tomas</key>
+			<array>
+				<integer>4154</integer>
+				<key>/Santo-Tomas-Surf-Report/4154/</key>
+			</array>
+			<key>Quatro Casas</key>
+			<array>
+				<integer>4155</integer>
+				<key>/Quatro-Casas-Surf-Report/4155/</key>
+			</array>
+			<key>Salsipuedes</key>
+			<array>
+				<integer>4156</integer>
+				<key>/Salsipuedes-Surf-Report/4156/</key>
+			</array>
+			<key>Shipwrecks/Freighters</key>
+			<array>
+				<integer>4159</integer>
+				<key>/Shipwrecks-Freighters-Surf-Report/4159/</key>
+			</array>
+		</dict>
+		<key>Los Cabos</key>
+		<dict>
+			<key>Cerritos</key>
+			<array>
+				<integer>328</integer>
+				<key>/Cerritos-Surf-Report/328/</key>
+			</array>
+			<key>Costa Azul</key>
+			<array>
+				<integer>329</integer>
+				<key>/Costa-Azul-Surf-Report/329/</key>
+			</array>
+			<key>Monuments</key>
+			<array>
+				<integer>775</integer>
+				<key>/Monuments-Surf-Report/775/</key>
+			</array>
+			<key>Migrino</key>
+			<array>
+				<integer>776</integer>
+				<key>/Migrino-Surf-Report/776/</key>
+			</array>
+			<key>Pescadero</key>
+			<array>
+				<integer>778</integer>
+				<key>/Pescadero-Surf-Report/778/</key>
+			</array>
+			<key>Bahia Chileno</key>
+			<array>
+				<integer>779</integer>
+				<key>/Bahia-Chileno-Surf-Report/779/</key>
+			</array>
+			<key>Las Frailes</key>
+			<array>
+				<integer>780</integer>
+				<key>/Las-Frailes-Surf-Report/780/</key>
+			</array>
+			<key>Punta Arenas</key>
+			<array>
+				<integer>781</integer>
+				<key>/Punta-Arenas-Surf-Report/781/</key>
+			</array>
+			<key>Todos Santos (mainland)</key>
+			<array>
+				<integer>1201</integer>
+				<key>/Todos-Santos-mainland-Surf-Report/1201/</key>
+			</array>
+			<key>Nine Palms</key>
+			<array>
+				<integer>4148</integer>
+				<key>/Nine-Palms-Surf-Report/4148/</key>
+			</array>
+			<key>Shipwrecks</key>
+			<array>
+				<integer>4158</integer>
+				<key>/Shipwrecks-Surf-Report/4158/</key>
+			</array>
+		</dict>
+		<key>Southern Baja</key>
+		<dict>
+			<key>Punta Abreojos</key>
+			<array>
+				<integer>1250</integer>
+				<key>/Punta-Abreojos-Surf-Report/1250/</key>
+			</array>
+			<key>Scorpion Bay</key>
+			<array>
+				<integer>4157</integer>
+				<key>/Scorpion-Bay-Surf-Report/4157/</key>
+			</array>
+		</dict>
+	</dict>
+	<key>Pacific Mexico</key>
+	<dict>
+		<key>Colima</key>
+		<dict>
+			<key>Pascuales</key>
+			<array>
+				<integer>333</integer>
+				<key>/Pascuales-Surf-Report/333/</key>
+			</array>
+			<key>Rio Nexpa</key>
+			<array>
+				<integer>334</integer>
+				<key>/Rio-Nexpa-Surf-Report/334/</key>
+			</array>
+			<key>Cuyutlan</key>
+			<array>
+				<integer>2068</integer>
+				<key>/Cuyutlan-Surf-Report/2068/</key>
+			</array>
+			<key>El Paraiso</key>
+			<array>
+				<integer>2067</integer>
+				<key>/El-Paraiso-Surf-Report/2067/</key>
+			</array>
+		</dict>
+		<key>Nayarit</key>
+		<dict>
+			<key>Hammerhead</key>
+			<array>
+				<integer>330</integer>
+				<key>/Hammerhead-Surf-Report/330/</key>
+			</array>
+			<key>Las Islitas</key>
+			<array>
+				<integer>331</integer>
+				<key>/Las-Islitas-Surf-Report/331/</key>
+			</array>
+			<key>Punta Sayulita</key>
+			<array>
+				<integer>332</integer>
+				<key>/Punta-Sayulita-Surf-Report/332/</key>
+			</array>
+			<key>Aticama</key>
+			<array>
+				<integer>2063</integer>
+				<key>/Aticama-Surf-Report/2063/</key>
+			</array>
+			<key>Ostiones</key>
+			<array>
+				<integer>2058</integer>
+				<key>/Ostiones-Surf-Report/2058/</key>
+			</array>
+			<key>San Pancho</key>
+			<array>
+				<integer>2059</integer>
+				<key>/San-Pancho-Surf-Report/2059/</key>
+			</array>
+			<key>Santa Cruz - Nayarit</key>
+			<array>
+				<integer>2064</integer>
+				<key>/Santa-Cruz-Nayarit-Surf-Report/2064/</key>
+			</array>
+			<key>Stoner's Point</key>
+			<array>
+				<integer>2062</integer>
+				<key>/Stoners-Point-Surf-Report/2062/</key>
+			</array>
+		</dict>
+		<key>West Guerrero</key>
+		<dict>
+			<key>Petacalco</key>
+			<array>
+				<integer>335</integer>
+				<key>/Petacalco-Surf-Report/335/</key>
+			</array>
+			<key>The Ranch</key>
+			<array>
+				<integer>336</integer>
+				<key>/The-Ranch-Surf-Report/336/</key>
+			</array>
+			<key>Las Gatas</key>
+			<array>
+				<integer>337</integer>
+				<key>/Las-Gatas-Surf-Report/337/</key>
+			</array>
+			<key>Playa Boca Chica</key>
+			<array>
+				<integer>338</integer>
+				<key>/Playa-Boca-Chica-Surf-Report/338/</key>
+			</array>
+			<key>Acapulco</key>
+			<array>
+				<integer>339</integer>
+				<key>/Acapulco-Surf-Report/339/</key>
+			</array>
+			<key>La Saladita</key>
+			<array>
+				<integer>838</integer>
+				<key>/La-Saladita-Surf-Report/838/</key>
+			</array>
+			<key>Manzanillo  Bay</key>
+			<array>
+				<integer>1059</integer>
+				<key>/Manzanillo-Bay-Surf-Report/1059/</key>
+			</array>
+			<key>Barra de Potosi</key>
+			<array>
+				<integer>2073</integer>
+				<key>/Barra-de-Potosi-Surf-Report/2073/</key>
+			</array>
+			<key>El Faro (Guerrero)</key>
+			<array>
+				<integer>2069</integer>
+				<key>/El-Faro-Guerrero-Surf-Report/2069/</key>
+			</array>
+			<key>Escolleras</key>
+			<array>
+				<integer>2060</integer>
+				<key>/Escolleras-Surf-Report/2060/</key>
+			</array>
+			<key>Playa Linda</key>
+			<array>
+				<integer>2061</integer>
+				<key>/Playa-Linda-Surf-Report/2061/</key>
+			</array>
+			<key>Troncones</key>
+			<array>
+				<integer>2065</integer>
+				<key>/Troncones-Surf-Report/2065/</key>
+			</array>
+		</dict>
+		<key>East Oaxaca</key>
+		<dict>
+			<key>La Bocana</key>
+			<array>
+				<integer>341</integer>
+				<key>/La-Bocana-Surf-Report/341/</key>
+			</array>
+			<key>Punta Conejo</key>
+			<array>
+				<integer>1087</integer>
+				<key>/Punta-Conejo-Surf-Report/1087/</key>
+			</array>
+			<key>La Ventosa</key>
+			<array>
+				<integer>2072</integer>
+				<key>/La-Ventosa-Surf-Report/2072/</key>
+			</array>
+			<key>Punta Chivo</key>
+			<array>
+				<integer>2071</integer>
+				<key>/Punta-Chivo-Surf-Report/2071/</key>
+			</array>
+		</dict>
+		<key>Sinaloa</key>
+		<dict>
+			<key>Playa Los Cerritos</key>
+			<array>
+				<integer>858</integer>
+				<key>/Playa-Los-Cerritos-Surf-Report/858/</key>
+			</array>
+		</dict>
+		<key>West Oaxaca</key>
+		<dict>
+			<key>Puerto Escondido</key>
+			<array>
+				<integer>340</integer>
+				<key>/Puerto-Escondido-Surf-Report/340/</key>
+			</array>
+			<key>Colotepec</key>
+			<array>
+				<integer>2070</integer>
+				<key>/Colotepec-Surf-Report/2070/</key>
+			</array>
+			<key>La Punta - Playa Zicatela</key>
+			<array>
+				<integer>2057</integer>
+				<key>/La-Punta-Playa-Zicatela-Surf-Report/2057/</key>
+			</array>
+			<key>San Augustin</key>
+			<array>
+				<integer>2066</integer>
+				<key>/San-Augustin-Surf-Report/2066/</key>
+			</array>
+		</dict>
+	</dict>
 </dict>
 </plist>
